@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiceX</string>
+    <string name="action_settings">Settings</string>
+    <string name="dicex">Let\'s Play DiceX!</string>
+    <string name="rollButton">roll!</string>
+    <string name="total">Total: 0</string>
+</resources>
