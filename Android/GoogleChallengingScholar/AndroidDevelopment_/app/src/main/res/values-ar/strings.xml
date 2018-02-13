@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">اسم</string>
+    <string name="toppings">اضافات</string>
+    <string name="thank_you">شكرا فشخ</string>
+    <string name="order_summary_name">"اسمك اهو: "</string>
+    <string name="_1">١</string>
+    <string name="app_name">قهوة بس</string>
+</resources>
