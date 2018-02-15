@@ -8,3 +8,13 @@ decipherX = media.Movie("decipherX",
 # print(toyStory.storyline)
 # toyStory.showTrailer()
 
+diceX = media.Movie("diceX",
+                        "an application -> DiceX ###",
+                        "https://www.google.com.eg/search?q=dice&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjIm9TD2abZAhUEbhQKHcE6Bl8Q_AUICigB&biw=1920&bih=1200#imgrc=j98x9hdexddtoM:",
+                        "https://www.youtube.com/watch?v=DdH3WCOT1x0")
+
+
+iqx = media.Movie("iqx",
+                        "an application -> IQ",
+                        "https://www.google.com.eg/search?q=iq+test&source=lnms&tbm=isch&sa=X&ved=0ahUKEwij6O3t2abZAhVK8RQKHRrMAasQ_AUICigB&biw=1920&bih=1200#imgrc=n2wKL41WboN3lM:",
+                        "https://www.youtube.com/watch?v=ezFD-FELtXE")
