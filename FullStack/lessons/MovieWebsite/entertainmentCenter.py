@@ -21,4 +21,8 @@ iqx = media.Movie("iqx",
                         "https://www.youtube.com/watch?v=ezFD-FELtXE")
 
 movies = [decipherX, diceX, iqx]
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+# print(media.Movie.valid_ratings)
+# print(media.Movie.__doc__)
+# print(media.Movie.__name__)
+# print(media.Movie.__module__)
