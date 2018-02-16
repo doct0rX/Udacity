@@ -1,6 +1,6 @@
 # Udacity
 
-### Movie Qoutes
+### Movie Quotes
 - Houston, we have a problem. (Apollo 13)
 - Mama always said, life is like a box of chocolates. You never know what you are going to get. (Forrest Gump)
 - You cant handle the truth. (A Few Good Men)
