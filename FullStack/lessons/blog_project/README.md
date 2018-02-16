@@ -25,3 +25,6 @@ With the help of:
 * Colt
 * James
 * Julia
+
+## Added by doct0rX
+* [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
