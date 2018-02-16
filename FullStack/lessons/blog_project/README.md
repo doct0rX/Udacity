@@ -28,3 +28,4 @@ With the help of:
 
 ## Added by doct0rX
 * [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
+* [Globbing](https://en.wikipedia.org/wiki/Glob_(programming))
