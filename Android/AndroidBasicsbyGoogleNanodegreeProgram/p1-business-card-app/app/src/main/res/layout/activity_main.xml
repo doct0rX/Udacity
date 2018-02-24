@@ -1,89 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:http="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/gradients">
 
-
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical" >
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/learn_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
+            android:paddingBottom="13dp"
             android:paddingLeft="13dp"
             android:paddingRight="13dp"
             android:paddingTop="13dp"
-            android:paddingBottom="13dp"
             android:text="@string/company_x"
-            android:textSize="31sp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="31sp" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="386dp"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo"
             android:scaleType="fitCenter"
-            android:src="@drawable/cx_1"
-            android:contentDescription="@string/logo" />
+            android:src="@drawable/cx_1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="11dp"
             android:text="@string/intro"
-            android:textSize="21sp"
-            android:textColor="@android:color/black"/>
-
-        <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="11dp"
-        android:text="@string/under_intro"
-        android:textSize="17sp"
-        android:fontFamily="cursive"
-        android:textColor="@android:color/black"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="viewStart"
-            android:text="@string/for_more_info"
-            android:paddingStart="17dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/_12_3456789"
-            android:clickable="true"
-            android:autoLink="phone"
-            android:paddingStart="21dp"
             android:textColor="@android:color/black"
-            tools:ignore="RtlSymmetry"
-            android:focusable="true" />
-        
+            android:textSize="21sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:fontFamily="cursive"
+            android:text="@string/under_intro"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="17dp"
+            android:text="@string/for_more_info"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:focusable="true"
             android:paddingStart="21dp"
-            android:text="@string/mustafaj4m_gmail_com"
-            android:autoLink="email"
+            android:text="@string/_12_3456789"
             android:textColor="@android:color/black"
             tools:ignore="RtlSymmetry" />
 
-
-
-
-
-
-
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:paddingStart="21dp"
+            android:text="@string/mustafaj4m_gmail_com"
+            android:textColor="@android:color/black"
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 </ScrollView>
