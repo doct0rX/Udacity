@@ -8,4 +8,5 @@
     <string name="foul">foul</string>
     <string name="al_ahly">Al Ahly</string>
     <string name="win">WIN</string>
+    <string name="reset">Reset</string>
 </resources>
