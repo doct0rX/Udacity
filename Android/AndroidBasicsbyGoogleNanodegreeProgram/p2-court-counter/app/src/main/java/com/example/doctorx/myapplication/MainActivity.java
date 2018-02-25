@@ -31,10 +31,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setaGoals(View v) {
-
+        aGoals += 1;
+        TextView textGoal = findViewById(R.id.a_goals);
+        textGoal.setText(String.valueOf(aGoals));
     }
 
     public void setaFouls(View v) {
-
+        aFouls += 1;
+        TextView textFoul = findViewById(R.id.a_fouls);
+        textFoul.setText(String.valueOf(aFouls));
     }
 }

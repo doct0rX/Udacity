@@ -3,60 +3,126 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:paddingLeft="11dp"
     android:paddingRight="11dp">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/al_zamalek"
-        android:textAllCaps="true"
-        android:textColor="@android:color/black"
-        android:textSize="25sp" />
-
-    <ImageView
-        android:layout_width="111dp"
-        android:layout_height="131dp"
-        android:contentDescription="@string/zamalek_img"
-        android:src="@drawable/zamalek_logo" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/z_goals"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingEnd="31dp"
-            android:text="@string/_0"
+            android:text="@string/al_zamalek"
+            android:textAllCaps="true"
             android:textColor="@android:color/black"
-            android:textSize="55sp"
-            tools:ignore="RtlSymmetry" />
+            android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/z_fouls"
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="131dp"
+            android:contentDescription="@string/zamalek_img"
+            android:src="@drawable/zamalek_logo" />
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/z_0"
-            android:textColor="@android:color/holo_red_dark"
-            android:textSize="30sp" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/z_goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="31dp"
+                android:text="@string/_0"
+                android:textColor="@android:color/black"
+                android:textSize="55sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/z_fouls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/z_0"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setzGoals"
+            android:text="@string/goal"
+            android:textSize="21sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setzFouls"
+            android:text="@string/foul"
+            android:textColor="@android:color/holo_red_dark" />
+
     </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="setzGoals"
-        android:text="@string/goal"
-        android:textSize="21sp" />
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/foul"
-        android:textColor="@android:color/holo_red_dark"
-        android:onClick="setzFouls"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/al_ahly"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="131dp"
+            android:contentDescription="@string/zamalek_img"
+            android:src="@drawable/ahly_logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/a_goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="31dp"
+                android:text="@string/_0"
+                android:textColor="@android:color/black"
+                android:textSize="55sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/a_fouls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/z_0"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setaGoals"
+            android:text="@string/goal"
+            android:textSize="21sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setaFouls"
+            android:text="@string/foul"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </LinearLayout>
 
 </LinearLayout>
