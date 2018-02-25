@@ -28,3 +28,12 @@ Here's a compiled list with contributions from our helpful forum mentors (speica
 
 > Lastly, Convert Images to the Appropriate Resolution Sizes
 - [Android Drawable Converter Tool](https://plugins.jetbrains.com/plugin/7658-android-drawable-importer) (Important Note: A common thing students miss when using Android Drawable Converter Tool is setting the base resolution. When you have a drawable ready to give to the importer, you'll need to set it to the "source resolution".)
+
+
+## Project 2: Score Keeper
+
+### Project Design:
+![Alt text](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p2-court-counter/screens/IMG_4638.JPG)
+
+### Project Screenshot:
+![Alt text](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p2-court-counter/screens/Screenshot_1519597607.png)
