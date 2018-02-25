@@ -28,6 +28,13 @@
             android:contentDescription="@string/zamalek_img"
             android:src="@drawable/zamalek_logo" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textSize="61sp"
+            android:id="@+id/z_win"/>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,6 +97,13 @@
             android:layout_height="131dp"
             android:contentDescription="@string/zamalek_img"
             android:src="@drawable/ahly_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textSize="61sp"
+            android:id="@+id/a_win"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
