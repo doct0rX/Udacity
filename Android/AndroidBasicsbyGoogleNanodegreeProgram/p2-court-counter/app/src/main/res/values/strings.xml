@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="al_zamalek">Al Zamalek</string>
+    <string name="zamalek_img">zamalek_img</string>
+    <string name="_0">0</string>
+    <string name="z_0">0</string>
+    <string name="goal">Goal</string>
+    <string name="foul">foul</string>
 </resources>
