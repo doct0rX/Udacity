@@ -7,10 +7,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int zGoals = 0;
-    int zFouls = 0;
-    int aGoals = 0;
-    int aFouls = 0;
+    private int zGoals;
+    private int zFouls;
+    private int aGoals;
+    private int aFouls;
     TextView textGoal,textGoal2, textFoul, textWin, textWin1, textWin2;
 
     @Override
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         textWin2.setText("--");
         textGoal = findViewById(R.id.z_goals);
         textGoal2 = findViewById(R.id.a_goals);
-        textGoal.setText(String.valueOf(aGoals));
+        textGoal2.setText(String.valueOf(aGoals));
         textGoal.setText(String.valueOf(zGoals));
         textFoul = findViewById(R.id.z_fouls);
         textFoul.setText(String.valueOf(zFouls));
