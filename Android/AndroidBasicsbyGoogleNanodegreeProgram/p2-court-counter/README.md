@@ -41,5 +41,7 @@ Here's a compiled list with contributions from our helpful forum mentors (speica
 ### Code Improvements:
 ##### Added 
 > [Main Code Review](https://review.udacity.com/?utm_medium=email&utm_campaign=ret_000_auto_ndxxx_submission-reviewed&utm_source=blueshift&utm_content=reviewsapp-submission-reviewed&bsft_clkid=b99df2b3-0397-4e85-bce0-e6f270d150b6&bsft_uid=0a185366-ce3f-475d-81c4-562953549ab4&bsft_mid=8a352d15-2c33-4c56-8c46-c2d5d3086179&bsft_eid=6f154690-7543-4582-9be7-e397af208dbd&bsft_txnid=d9ef32f4-072b-4be5-8240-4f566af573fb#!/reviews/1055215)
+
 > [Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm)
+
 > [Syles And THemes](https://developer.android.com/guide/topics/ui/look-and-feel/themes.html)
