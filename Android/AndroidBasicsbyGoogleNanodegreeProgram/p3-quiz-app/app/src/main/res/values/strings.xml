@@ -43,4 +43,17 @@
     <string name="_11">11</string>
     <string name="_0">0</string>
     <string name="_1">1</string>
+    <string name="toast_fail">Total Score:</string>
+    <string name="toast_fail2">Submit one more time to See the Correct Answers :)</string>
+    <string name="toast_success">Total Score:</string>
+    <string name="toast_success2">Well Done!!!</string>
+    <string name="submit_text_view">Your Total Score is:</string>
+    <string name="rb">You Answered Question 1 Correctly</string>
+    <string name="rb_else">You Answered Question 1 Wrongly</string>
+    <string name="rb1">You Answered Question 2 Correctly</string>
+    <string name="rb1_else">You Answered Question 2 Wrongly</string>
+    <string name="rb3">You Answered Question 3 Correctly</string>
+    <string name="rb3_else">You Answered Question 3 Wrongly</string>
+    <string name="rb4">You Answered Question 4 Correctly</string>
+    <string name="rb4_else">You Answered Question 4 Wrongly</string>
 </resources>

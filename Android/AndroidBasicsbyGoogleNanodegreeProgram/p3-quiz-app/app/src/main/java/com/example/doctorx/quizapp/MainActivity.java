@@ -1,22 +1,20 @@
 package com.example.doctorx.quizapp;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import static android.widget.Toast.LENGTH_LONG;
 
 
 public class MainActivity extends AppCompatActivity {
-
-    private int score;
-    private RadioButton rb, rb2, rb3, rb4;
-    private CheckBox cb1, cb2;
-    private TextView textView;
-    private EditText name;
-    private String ans;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,45 +23,50 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @SuppressLint("SetTextI18n")
     public void checkResult (View v) {
-        score = 0;
-        rb = findViewById(R.id.ans1);
-        rb2 = findViewById(R.id.ans2);
-        rb3 = findViewById(R.id.ans3);
-        rb4 = findViewById(R.id.ans4);
+        int score = 0;
+        final RadioButton rb = findViewById(R.id.ans1);
+        final RadioButton rb2 = findViewById(R.id.ans2);
+        final RadioButton rb3 = findViewById(R.id.ans3);
+        final RadioButton rb4 = findViewById(R.id.ans4);
 
+        String ans;
         if (rb.isChecked()) {
             score += 10;
-            ans = "You Answered Question 1 Correctly";
+            ans = getString(R.string.rb);
         } else {
-            ans = "You Answered Question 1 Wrongly";
+            ans = getString(R.string.rb_else);
         }
 
         if (rb2.isChecked()) {
             score += 10;
-            ans += "\nYou Answered Question 2 Correctly";
+            ans += getString(R.string.rb1);
         } else {
-            ans += "\nYou Answered Question 2 Wrongly";
+            ans += getString(R.string.rb1_else);
         }
 
         if (rb3.isChecked()) {
             score += 10;
-            ans += "\nYou Answered Question 3 Correctly";
+            ans += getString(R.string.rb3);
         } else {
-            ans += "\nYou Answered Question 3 Wrongly";
+            ans += getString(R.string.rb3_else);
         }
 
         if (rb4.isChecked()) {
             score += 10;
-            ans += "\nYou Answered Question 4 Correctly";
+            ans += getString(R.string.rb4);
         } else {
-            ans += "\nYou Answered Question 4 Wrongly";
+            ans += getString(R.string.rb4_else);
         }
 
 
         // Check Buttons
-        cb1 = findViewById(R.id.two);
-        cb2 = findViewById(R.id.eleven);
+        final CheckBox cb1 = findViewById(R.id.two);
+        final CheckBox cb2 = findViewById(R.id.eleven);
+        final CheckBox cb3 = findViewById(R.id.seven);
+        final CheckBox cb4 = findViewById(R.id.one);
+        final CheckBox cb0 = findViewById(R.id.zero);
 
         if (cb1.isChecked()) {
             score += 10/2;
@@ -78,28 +81,41 @@ public class MainActivity extends AppCompatActivity {
 
         if (cb1.isChecked() && cb2.isChecked()) {
             ans += "\nYou Answered Question 5 Correctly";
+        } else if (cb3.isChecked() || cb4.isChecked() || cb0.isChecked()){
+            ans += "\nYou have submitted some wrong answers for Question 5";
         }
-        // checkButtons
-//        boolean checked = ((CheckBox) v).isChecked();
-//
-//        // Check which checkbox was clicked
-//        switch (v.getId()) {
-//            case R.id.two:
-//                if (checked) {
-//                    score += 10 / 2;
-//                }
-//                break;
-//            case R.id.seven:
-//                if (checked) {
-//                    score += 10/2;
-//                }
-//                break;
-//        }
 
-
-        name = findViewById(R.id.name);
+        EditText name = findViewById(R.id.name);
         String name1 = name.getText().toString();
-        textView = findViewById(R.id.resultText);
-        textView.setText("\nHi " + name1 + "," + "\n" + ans + "\nYour Total Score is: " + score + "/50");
+        TextView textView = findViewById(R.id.resultText);
+        textView.setText("\nHi " + name1 + "," + "\n" + ans + getString(R.string.submit_text_view) + score + "/50");
+
+        // Toast for showing the result and checking the correct answer
+        if (score != 50) {
+            Toast.makeText(MainActivity.this, getString(R.string.toast_fail) + score + getString(R.string.toast_fail2), LENGTH_LONG).show();
+        } else {
+            Toast.makeText(MainActivity.this, getString(R.string.toast_success) + score + getString(R.string.toast_success2), LENGTH_LONG).show();
+        }
+
+
+        // check the correct answers
+        Button submit = findViewById(R.id.submit);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Radio Buttons
+                rb.setChecked(true);
+                rb2.setChecked(true);
+                rb3.setChecked(true);
+                rb4.setChecked(true);
+
+                // Check Buttons
+                cb1.setChecked(true);
+                cb2.setChecked(true);
+                cb3.setChecked(false);
+                cb4.setChecked(false);
+                cb0.setChecked(false);
+            }
+        });
     }
 }

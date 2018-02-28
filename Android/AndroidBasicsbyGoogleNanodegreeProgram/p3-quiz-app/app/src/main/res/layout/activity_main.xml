@@ -290,13 +290,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="31dp"
                 android:gravity="center"
                 android:text="@string/q_five"
                 android:textColor="#000000" />
@@ -311,7 +311,6 @@
                     android:id="@+id/zero"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="checkResult"
                     android:padding="6dp"
                     android:text="@string/_0" />
 
@@ -319,7 +318,6 @@
                     android:id="@+id/one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="checkResult"
                     android:paddingEnd="6dp"
                     android:text="@string/_1"
                     tools:ignore="RtlSymmetry" />
@@ -328,7 +326,6 @@
                     android:id="@+id/two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="checkResult"
                     android:paddingEnd="6dp"
                     android:text="@string/_2"
                     tools:ignore="RtlSymmetry" />
@@ -337,7 +334,6 @@
                     android:id="@+id/seven"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="checkResult"
                     android:paddingEnd="6dp"
                     android:text="@string/_7"
                     tools:ignore="RtlSymmetry" />
@@ -346,7 +342,6 @@
                     android:id="@+id/eleven"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="checkResult"
                     android:paddingEnd="6dp"
                     android:text="@string/_11"
                     tools:ignore="RtlSymmetry" />
