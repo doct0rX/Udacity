@@ -308,14 +308,14 @@
                 android:gravity="center">
 
                 <CheckBox
-                    android:id="@+id/zero"
+                    android:id="@+id/cb_zero"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="6dp"
                     android:text="@string/_0" />
 
                 <CheckBox
-                    android:id="@+id/one"
+                    android:id="@+id/cb_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="6dp"
@@ -323,7 +323,7 @@
                     tools:ignore="RtlSymmetry" />
 
                 <CheckBox
-                    android:id="@+id/two"
+                    android:id="@+id/cb_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="6dp"
@@ -331,7 +331,7 @@
                     tools:ignore="RtlSymmetry" />
 
                 <CheckBox
-                    android:id="@+id/seven"
+                    android:id="@+id/cb_seven"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="6dp"
@@ -339,7 +339,7 @@
                     tools:ignore="RtlSymmetry" />
 
                 <CheckBox
-                    android:id="@+id/eleven"
+                    android:id="@+id/cb_eleven"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="6dp"
@@ -349,6 +349,31 @@
             </LinearLayout>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="11dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/q_six"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/qSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/alfred_binet"
+                android:inputType="textPersonName"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/resultText"
