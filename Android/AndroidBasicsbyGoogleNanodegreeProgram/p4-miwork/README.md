@@ -47,6 +47,8 @@ License for the specific language governing permissions and limitations under
 the License.
 
 
-### Added by doct0rX
+----------------------
+
+### Added by: doct0rX
 
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
