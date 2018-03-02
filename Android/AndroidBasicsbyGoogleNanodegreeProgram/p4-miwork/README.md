@@ -58,6 +58,10 @@ the License.
         + [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
         + [Android button example](http://www.mkyong.com/android/android-button-example/)
     * [Java Data Types Summary Page](https://docs.google.com/document/d/1A6RLePdvEp6JwvZhWH55fBz0t311Cl-vWFHZjypeo1k/pub?embedded=true)
+    * Array and ArrayList:
+        + [List interface](https://developer.android.com/reference/java/util/List.html)
+        + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList.html)
+    * [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
 
 #### OnClickListener vs onClick
 
