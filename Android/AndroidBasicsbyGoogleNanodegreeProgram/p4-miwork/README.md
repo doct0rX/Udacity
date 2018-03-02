@@ -56,8 +56,8 @@ the License.
     * [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
     * [Android button example](http://www.mkyong.com/android/android-button-example/)
 
+#### OnClickListener vs onClick
 
-##### OnClickListener vs onClick
 You might be wondering why we're going through all the trouble of creating an anonymous subclass of OnClickListener and attaching it to a view, when we already know how to use the onClick XML attribute from from back in Android Basics: User Input. Why write something terrifying like:
 
 ```java
