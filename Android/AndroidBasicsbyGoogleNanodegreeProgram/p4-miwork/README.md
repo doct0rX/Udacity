@@ -52,9 +52,12 @@ the License.
 ### Added by: doct0rX 👾
 
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
-* More on Click Listeners:
-    * [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
-    * [Android button example](http://www.mkyong.com/android/android-button-example/)
+
+* ##### REASORS:
+    * Click Listeners:
+        + [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
+        + [Android button example](http://www.mkyong.com/android/android-button-example/)
+    * [Java Data Types Summary Page](https://docs.google.com/document/d/1A6RLePdvEp6JwvZhWH55fBz0t311Cl-vWFHZjypeo1k/pub?embedded=true)
 
 #### OnClickListener vs onClick
 
