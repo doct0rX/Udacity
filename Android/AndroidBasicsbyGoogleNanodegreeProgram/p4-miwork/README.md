@@ -59,7 +59,8 @@ the License.
 
 ##### OnClickListener vs onClick
 You might be wondering why we're going through all the trouble of creating an anonymous subclass of OnClickListener and attaching it to a view, when we already know how to use the onClick XML attribute from from back in Android Basics: User Input. Why write something terrifying like:
-'''java
+
+```java
 // In onCreate() in the Activity
 Button button = (Button) findViewById(R.id.ze_button);
 button.setOnClickListener(new View.OnClickListener() {
@@ -68,17 +69,17 @@ button.setOnClickListener(new View.OnClickListener() {
         doSomeStuff();
     }
 });
-'''
+```
 
 When we could do something much cleaner like:
 
-'''java
+```java
 android:onClick="myListener" // This is in the XML layout
 
 public void myListener(View view){ // This is back in the Activity file
     doSomeStuff();
 }
-'''
+```
 
 There are a couple reasons why you might want to programmatically set an OnClickListener. The first is if you ever want to change the behavior of your button while your app is running. You can point your button at another method entirely, or just disable the button by setting an OnClickListener that doesn't do anything.
 
