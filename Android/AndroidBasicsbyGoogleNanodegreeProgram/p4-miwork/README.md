@@ -61,7 +61,7 @@ the License.
     * Array and ArrayList:
         + [List interface](https://developer.android.com/reference/java/util/List.html)
         + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList.html)
-    * [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
+    * [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html) __Great Tutorial__
 
 #### OnClickListener vs onClick
 
