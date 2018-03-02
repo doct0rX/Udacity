@@ -49,7 +49,7 @@ the License.
 
 ----------------------
 
-### Added by: doct0rX
+### Added by: doct0rX *_{some notes}_*
 
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
 * More on Click Listeners:
