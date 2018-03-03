@@ -18,12 +18,13 @@ import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
-    public WordAdapter(Context context, ArrayList<Word> word) {
+    WordAdapter(Context context, ArrayList<Word> word) {
         super(context, 0, word);
     }
 
+    @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         View listItemView = convertView;
         if(listItemView == null) {
@@ -31,6 +32,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         }
         Word currentWord = getItem(position);
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwork_text_view);
+        assert currentWord != null;
         miwokTextView.setText(currentWord.getMiworkTranslation());
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         defaultTextView.setText(currentWord.getDefaultTranslation());
