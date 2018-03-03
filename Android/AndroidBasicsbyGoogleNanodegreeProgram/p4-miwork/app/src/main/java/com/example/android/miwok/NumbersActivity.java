@@ -17,7 +17,8 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -41,7 +42,21 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
-        Log.v("NumberActivity", "Word at index 0: " + words.get(0));
-        Log.v("NumberActivity", "Word at index 1: " + words.get(1));
+        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
+
+        int index = 0;
+        while (index < words.size()) {
+            // Create a new TextView
+            TextView wordView = new TextView(this);
+
+            // Set the text to be word at the current index
+            wordView.setText(words.get(index));
+            assert rootView != null;
+
+            // Add this TextView to anther child to the root view of this layout
+            rootView.addView(wordView);
+
+            index++;
+        }
     }
 }
