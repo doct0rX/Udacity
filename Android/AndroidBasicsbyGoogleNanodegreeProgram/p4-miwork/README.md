@@ -62,6 +62,7 @@ the License.
         + [List interface](https://developer.android.com/reference/java/util/List.html)
         + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList.html)
     * [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html) __Great Tutorial__
+    * [Using an ArrayAdapter with ListView](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView) useful in understanding how view recycling works.
 
 #### OnClickListener vs onClick
 
