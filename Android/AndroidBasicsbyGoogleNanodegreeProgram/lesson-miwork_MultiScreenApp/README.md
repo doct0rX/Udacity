@@ -53,7 +53,7 @@ the License.
 
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
 
-* #### REASORS:
+* #### RESOURCES:
     * Click Listeners:
         + [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
         + [Android button example](http://www.mkyong.com/android/android-button-example/)
@@ -63,6 +63,8 @@ the License.
         + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList.html)
     * [Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html) __Great Tutorial__
     * [Using an ArrayAdapter with ListView](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView) useful in understanding how view recycling works.
+    * Projects Overview:
+        + [Modules](https://developer.android.com/studio/projects/index.html)
 
 #### OnClickListener vs onClick
 
