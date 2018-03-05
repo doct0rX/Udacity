@@ -68,6 +68,12 @@ the License.
     * Gradle:
         + Elements of build.gradle file &rarr; A complete list of configurable build properties and default values can be found [here](http://google.github.io/android-gradle-dsl/current/)
         + Module-Level build.gradle File &rarr; [Example Screens](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/lesson-miwork_MultiScreenApp/screens/README.md)
+        + Additional Resources:
+            > We've only scratched the surface of the power of Gradle. If you're interested in learning more, check out these resources:
+            - [Introducing Gradle (Dev Bytes Video)](https://www.youtube.com/watch?v=cD7NPxuuXYY)
+            - [Why Gradle (Udacity Video)](https://www.youtube.com/watch?v=VOUmY4_hPeM)
+            - [Android Studio Project Site - Gradle Plugin User Guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Tasks)
+                > Note the Gradle Plugin User Guide goes into extensive detail about Gradle which is beyond the scope of this course. There’s lots of useful information, but don’t feel pressured to read through or understand everything that’s going on. If you’d like a deeper dive, checkout [Udacity's Gradle for Android and Java online course](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
 
 #### OnClickListener vs onClick
 
