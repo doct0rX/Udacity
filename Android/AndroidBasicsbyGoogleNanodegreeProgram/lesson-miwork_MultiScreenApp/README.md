@@ -67,6 +67,7 @@ the License.
         + [Modules](https://developer.android.com/studio/projects/index.html)
     * Gradle:
         + Elements of build.gradle file &rarr; A complete list of configurable build properties and default values can be found [here](http://google.github.io/android-gradle-dsl/current/)
+        + Module-Level build.gradle File &rarr; [Example Screens](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/lesson-miwork_MultiScreenApp/screens/README.md)
 
 #### OnClickListener vs onClick
 
