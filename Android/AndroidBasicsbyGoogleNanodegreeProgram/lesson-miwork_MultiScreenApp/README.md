@@ -65,6 +65,8 @@ the License.
     * [Using an ArrayAdapter with ListView](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView) useful in understanding how view recycling works.
     * Projects Overview:
         + [Modules](https://developer.android.com/studio/projects/index.html)
+    * Gradle:
+        + Elements of build.gradle file &rarr; A complete list of configurable build properties and default values can be found [here](http://google.github.io/android-gradle-dsl/current/)
 
 #### OnClickListener vs onClick
 
