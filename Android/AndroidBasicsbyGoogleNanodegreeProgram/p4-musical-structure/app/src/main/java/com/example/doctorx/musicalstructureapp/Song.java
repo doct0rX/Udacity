@@ -13,9 +13,9 @@ public class Song {
     /* Artist Name */
     private String mArtistName;
 
-    public Song(String songName, String artistName) {
-        mSongName = songName;
-        mArtistName = artistName;
+    Song(String songName, String artistName) {
+        this.mSongName = songName;
+        this.mArtistName = artistName;
     }
 
     /**
