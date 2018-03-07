@@ -27,4 +27,5 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+    <string name="asset_images">asset images</string>
 </resources>
