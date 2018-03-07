@@ -31,6 +31,4 @@
             android:layout_height="wrap_content"
             tools:text="one" />
     </LinearLayout>
-
-
 </LinearLayout>

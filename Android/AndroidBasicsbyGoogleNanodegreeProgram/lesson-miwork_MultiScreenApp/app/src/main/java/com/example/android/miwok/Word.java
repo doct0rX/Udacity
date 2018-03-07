@@ -1,5 +1,7 @@
 package com.example.android.miwok;
 
+import android.widget.ImageView;
+
 /**
  * Created by doctorX on 3/3/18.
  *
@@ -14,10 +16,32 @@ public class Word {
     /* Miwork translation of the word */
     private String mMiworkTranslation;
 
+    /* Image resource ID for the word */
+    private int mImageResourceId;
+
+    /**
+     * Create word object (constructor)
+     * @param defaultTranslation English word
+     * @param miWorkTranslation Miwork word
+     */
     public Word(String defaultTranslation, String miWorkTranslation) {
         mDefaultTranslation = defaultTranslation;
         mMiworkTranslation = miWorkTranslation;
     }
+
+    /**
+     * Create word object (constructor)
+     * @param defaultTranslation English word
+     * @param miWorkTranslation Miwork word
+     * @param imageResourceId image source id
+     */
+    public Word(String defaultTranslation, String miWorkTranslation, int imageResourceId) {
+        mDefaultTranslation = defaultTranslation;
+        mMiworkTranslation = miWorkTranslation;
+        mImageResourceId = imageResourceId;
+    }
+
+
 
     /**
      * Get the default translation of the word
@@ -31,5 +55,12 @@ public class Word {
      */
     public String getMiworkTranslation() {
         return mMiworkTranslation;
+    }
+
+    /**
+     * Get the image source id
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 }
