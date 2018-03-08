@@ -20,6 +20,19 @@ public class MainActivity extends AppCompatActivity {
         songs.add(new Song("Chato", "Bisco Masr"));
         songs.add(new Song("Nope", "Mustafa"));
         songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("haha", "hehe"));
+        songs.add(new Song("Not made for this world", "Tove Lo"));
+        songs.add(new Song("Chato", "Bisco Masr"));
 
         // Create an adapter to convert the array to views
         SongAdapter adapter = new SongAdapter(this, songs);
