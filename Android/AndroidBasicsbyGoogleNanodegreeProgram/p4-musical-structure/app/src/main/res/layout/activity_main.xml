@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/songs_list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
     android:orientation="vertical"
-    android:padding="@dimen/padding_list"
-    tools:context="com.example.doctorx.musicalstructureapp.MainActivity"
-    tools:listitem="@layout/list_items" />
+    android:padding="@dimen/padding_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/electronic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity=""
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/elec"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+        <ImageView
+            android:id="@+id/pop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1.5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pop"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hip_hop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="1.5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hip_hop"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+        <ImageView
+            android:id="@+id/rock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1.5dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rock"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+</LinearLayout>
