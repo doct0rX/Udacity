@@ -39,6 +39,11 @@ projects:
             - [Why Gradle (Udacity Video)](https://www.youtube.com/watch?v=VOUmY4_hPeM)
             - [Android Studio Project Site - Gradle Plugin User Guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Tasks)
                 > Note the Gradle Plugin User Guide goes into extensive detail about Gradle which is beyond the scope of this course. There’s lots of useful information, but don’t feel pressured to read through or understand everything that’s going on. If you’d like a deeper dive, checkout [Udacity's Gradle for Android and Java online course](https://www.udacity.com/course/gradle-for-android-and-java--ud867)
+    *  Dimension Values:
+        + https://stackoverflow.com/a/7107974/5770629
+        + https://stackoverflow.com/a/2025541/5770629
+
+--------
 
 #### OnClickListener vs onClick
 
