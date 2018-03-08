@@ -1,6 +1,5 @@
 package com.example.android.miwok;
 
-import android.widget.ImageView;
 
 /**
  * Created by doctorX on 3/3/18.
@@ -18,6 +17,9 @@ public class Word {
 
     /* Image resource ID for the word */
     private int mImageResourceId;
+//    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create word object (constructor)
@@ -63,4 +65,13 @@ public class Word {
     public int getImageResourceId() {
         return mImageResourceId;
     }
+
+    /**
+     * @return whether or not there is an image for this Word.
+     *
+     * I don't need to use this method since my App is running perfectly with 2 constructors of WordAdapter.
+     */
+//    public boolean hasImage() {
+//        return mImageResourceId != NO_IMAGE_PROVIDED;
+//    }
 }
