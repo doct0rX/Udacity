@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Construct the data source
-        ArrayList<Song> songs = new ArrayList<Song>();
+        ArrayList<Song> songs = new ArrayList<>();
         songs.add(new Song("Hello", "Adele"));
         songs.add(new Song("Not made for this world", "Tove Lo"));
         songs.add(new Song("Chato", "Bisco Masr"));

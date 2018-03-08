@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--padding for main activity songs_list-->
-    <dimen name="padding_list">15</dimen>
+    <dimen name="padding_list">15dp</dimen>
 
     <!--for song in list_items-->
-    <dimen name="song">11</dimen>
+    <dimen name="song">11dp</dimen>
 
     <!--for artist for list_items-->
-    <dimen name="artist">7</dimen>
+    <dimen name="artist">7dp</dimen>
 </resources>
