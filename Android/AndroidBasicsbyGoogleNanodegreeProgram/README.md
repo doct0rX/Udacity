@@ -44,6 +44,7 @@ projects:
     *  Dimension Values:
         + https://stackoverflow.com/a/7107974/5770629
         + https://stackoverflow.com/a/2025541/5770629
+    * [Android Drawable Importer](https://github.com/winterDroid/android-drawable-importer-intellij-plugin) -- IntelliJ plugin
 
 --------
 
