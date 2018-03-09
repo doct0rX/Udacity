@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
+    <string name="pop_music">Pop Music</string>
+    <string name="electronic_music">Electronic Music</string>
+    <string name="hip_hop_music">Hip Hop Music</string>
+    <string name="rock_n_roll_music">Rock N Roll Music</string>
 </resources>

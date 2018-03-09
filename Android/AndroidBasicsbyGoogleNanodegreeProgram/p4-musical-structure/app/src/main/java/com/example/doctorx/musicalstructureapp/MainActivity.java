@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,60 +15,39 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the view that show the Electronic category
         ImageView electronic = findViewById(R.id.electronic);
-
-        // Set click listener to that view
-        electronic.setOnClickListener(new View.OnClickListener() {
-            // the code will executed when the electric is clicked
-            @Override
-            public void onClick(View view) {
-//                // Create a new intent to open {@link ElectronicActivity}
-                Intent electronicIntent = new Intent(MainActivity.this, ElectronicActivity.class);
-                startActivity(electronicIntent);
-            }
-        });
-
+        electronic.setOnClickListener(this);
 
         // Find the view for Pop
         ImageView pop = findViewById(R.id.pop);
-
-        // Set click listener to that view
-        pop.setOnClickListener(new View.OnClickListener() {
-            // the code will executed when the electric is clicked
-            @Override
-            public void onClick(View view) {
-//                // Create a new intent to open {@link ElectronicActivity}
-                Intent popIntent = new Intent(MainActivity.this, ElectronicActivity.class);
-                startActivity(popIntent);
-            }
-        });
-
+        pop.setOnClickListener(this);
 
         // Find the view for Hip Hop
         ImageView hipHop = findViewById(R.id.hip_hop);
-
-        // Set click listener to that view
-        hipHop.setOnClickListener(new View.OnClickListener() {
-            // the code will executed when the electric is clicked
-            @Override
-            public void onClick(View view) {
-//                // Create a new intent to open {@link ElectronicActivity}
-                Intent hipHopIntent = new Intent(MainActivity.this, ElectronicActivity.class);
-                startActivity(hipHopIntent);
-            }
-        });
+        hipHop.setOnClickListener(this);
 
         // Find the view for Rock
         ImageView rock = findViewById(R.id.rock);
+        rock.setOnClickListener(this);
+    }
 
-        // Set click listener to that view
-        rock.setOnClickListener(new View.OnClickListener() {
-            // the code will executed when the electric is clicked
-            @Override
-            public void onClick(View view) {
-//                // Create a new intent to open {@link ElectronicActivity}
-                Intent rockIntent = new Intent(MainActivity.this, ElectronicActivity.class);
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.electronic:
+                Intent electronicIntent = new Intent(MainActivity.this, ElectronicActivity.class);
+                startActivity(electronicIntent);
+
+            case R.id.pop:
+                Intent popIntent = new Intent(MainActivity.this, PopActivity.class);
+                startActivity(popIntent);
+
+            case R.id.hip_hop:
+                Intent hipIntent = new Intent(MainActivity.this, HipHopActivity.class);
+                startActivity(hipIntent);
+
+            case R.id.rock:
+                Intent rockIntent = new Intent(MainActivity.this, RockActivity.class);
                 startActivity(rockIntent);
-            }
-        });
+        }
     }
 }

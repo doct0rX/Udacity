@@ -16,24 +16,17 @@
 
         <ImageView
             android:id="@+id/electronic"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity=""
+            style="@style/ImageCategory"
             android:layout_marginEnd="1.5dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/elec"
-            tools:ignore="ContentDescription,NestedWeights" />
+            android:contentDescription="@string/electronic_music"
+            android:src="@drawable/elec" />
 
         <ImageView
             android:id="@+id/pop"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            style="@style/ImageCategory"
             android:layout_marginStart="1.5dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/pop"
-            tools:ignore="ContentDescription" />
+            android:contentDescription="@string/pop_music"
+            android:src="@drawable/pop" />
 
     </LinearLayout>
 
@@ -46,23 +39,17 @@
 
         <ImageView
             android:id="@+id/hip_hop"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            style="@style/ImageCategory"
             android:layout_marginEnd="1.5dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/hip_hop"
-            tools:ignore="ContentDescription,NestedWeights" />
+            android:contentDescription="@string/hip_hop_music"
+            android:src="@drawable/hip_hop" />
 
         <ImageView
             android:id="@+id/rock"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            style="@style/ImageCategory"
             android:layout_marginStart="1.5dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/rock"
-            tools:ignore="ContentDescription" />
+            android:contentDescription="@string/rock_n_roll_music"
+            android:src="@drawable/rock" />
 
     </LinearLayout>
 </LinearLayout>
