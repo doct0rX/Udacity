@@ -45,6 +45,12 @@ projects:
         + https://stackoverflow.com/a/7107974/5770629
         + https://stackoverflow.com/a/2025541/5770629
     * [Android Drawable Importer](https://github.com/winterDroid/android-drawable-importer-intellij-plugin) -- IntelliJ plugin
+    * Use Android Studio's [Code Analyzer](https://developer.android.com/studio/write/lint.html#manuallyRunInspections) to get awesome insights about your code. The code analyzer or Lint will give you suggestions to make your code better and more robust, checking all the best practices for Android, as recommended by Google :smile: Here are some recommended articles for more information about the Android's best practices:
+        + [Android Best Practices](https://developer.android.com/guide/practices/compatibility.html)
+        + [Android Best Practices for Performance](https://developer.android.com/topic/performance/index.html)
+        + [Android Best Practices by Mindorks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+    * Don't re-invent the wheel. Use Libraries wherever possible to make the job easier and more stable. Find awesome libraries [here](https://android-arsenal.com/) and [here](https://github.com/codepath/android_guides/wiki/Must-Have-Libraries).
+    * [Android Constrain Layout](https://developer.android.com/training/constraint-layout/index.html)
 
 --------
 
