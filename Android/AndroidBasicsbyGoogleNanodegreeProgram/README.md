@@ -56,6 +56,9 @@ projects:
         - [Providing resources in Android](https://developer.android.com/guide/topics/resources/providing-resources.html) (including an explanation of the “raw” folder)
         - [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
         - [Supported Media Formats](https://developer.android.com/guide/topics/media/media-formats.html)
+        - [Media playback the right way
+](https://www.youtube.com/watch?v=XQwe30cZffg) (Big Android BBQ 2015)
+
 --------
 
 #### OnClickListener vs onClick
