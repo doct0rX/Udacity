@@ -44,11 +44,14 @@ public class NumbersActivity extends AppCompatActivity {
         assert listView != null;
         listView.setAdapter(adapter);
 
-        // Play Audio
+        // Set clickListener to play the Audio when the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // Get the {@link Word} object at the given position the user clicked on
                 Word word = words.get(position);
+
+                // Create and setup the {@link MediaPlayer} for the audio resource associated w/ the current word
                 mMediaPlayer = MediaPlayer.create(NumbersActivity.this, word.getAudioResourceID());
                 mMediaPlayer.start();
             }
