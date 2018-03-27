@@ -55,6 +55,7 @@ projects:
     * Activity Cycle And Audio Playback
         - [Providing resources in Android](https://developer.android.com/guide/topics/resources/providing-resources.html) (including an explanation of the “raw” folder)
         - [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
+            + [release()](https://developer.android.com/reference/android/media/MediaPlayer.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#release()) method
         - [Supported Media Formats](https://developer.android.com/guide/topics/media/media-formats.html)
         - [Media playback the right way
 ](https://www.youtube.com/watch?v=XQwe30cZffg) (Big Android BBQ 2015)
