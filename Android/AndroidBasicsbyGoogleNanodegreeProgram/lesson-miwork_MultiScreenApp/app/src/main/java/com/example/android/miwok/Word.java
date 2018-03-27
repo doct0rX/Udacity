@@ -9,25 +9,31 @@ package com.example.android.miwok;
  */
 
 public class Word {
-    /* default translation of the word */
+    /** default translation of the word **/
     private String mDefaultTranslation;
 
-    /* Miwork translation of the word */
+    /** Miwork translation of the word **/
     private String mMiworkTranslation;
 
-    /* Image resource ID for the word */
+    /** Image resource ID for the word **/
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
+    /** Constant value that represents no image was provided for this word **/
     private static final int NO_IMAGE_PROVIDED = -1;
+
+    /** Audio resource ID for the word **/
+    private int mAudioResourceID;
 
     /**
      * Create word object (constructor)
      * @param defaultTranslation English word
      * @param miWorkTranslation Miwork word
+     * @param audioResourceID Audio Resource
      */
-    public Word(String defaultTranslation, String miWorkTranslation) {
+    public Word(String defaultTranslation, String miWorkTranslation, int audioResourceID) {
         mDefaultTranslation = defaultTranslation;
         mMiworkTranslation = miWorkTranslation;
+        mAudioResourceID = audioResourceID;
     }
 
     /**
@@ -35,11 +41,13 @@ public class Word {
      * @param defaultTranslation English word
      * @param miWorkTranslation Miwork word
      * @param imageResourceId image source id
+     * @param audioResourceID Audio Resource
      */
-    public Word(String defaultTranslation, String miWorkTranslation, int imageResourceId) {
+    public Word(String defaultTranslation, String miWorkTranslation, int imageResourceId, int audioResourceID) {
         mDefaultTranslation = defaultTranslation;
         mMiworkTranslation = miWorkTranslation;
         mImageResourceId = imageResourceId;
+        mAudioResourceID = audioResourceID;
     }
 
 
@@ -71,5 +79,13 @@ public class Word {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * @return The Audio Recourse ID of the word.
+     *
+     */
+    public int getAudioResourceID() {
+        return mAudioResourceID;
     }
 }
