@@ -27,6 +27,16 @@ import java.util.ArrayList;
 public class ColorsActivity extends AppCompatActivity {
     MediaPlayer mMediaPlayer;
 
+    /**
+     * This listener gets triggered when the {@link MediaPlayer} has completed playing the audio file.
+     */
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            releaseMediaPlayer();
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,8 +71,10 @@ public class ColorsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Word word = colors.get(position);
+                releaseMediaPlayer();
                 mMediaPlayer = MediaPlayer.create(ColorsActivity.this, word.getAudioResourceID());
                 mMediaPlayer.start();
+                mMediaPlayer.setOnCompletionListener(mCompletionListener);
             }
         });
     }

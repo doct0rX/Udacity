@@ -27,6 +27,16 @@ import java.util.ArrayList;
 public class FamilyActivity extends AppCompatActivity {
     private MediaPlayer mMediaPlayer;
 
+    /**
+     * This listener gets triggered when the {@link MediaPlayer} has completed playing the audio file.
+     */
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            releaseMediaPlayer();
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,9 +76,12 @@ public class FamilyActivity extends AppCompatActivity {
                 // Get the {@link Word} object at the given position the user clicked on
                 Word word = family.get(position);
 
+                releaseMediaPlayer();
+
                 // Create and setup the {@link MediaPlayer} for the audio resource associated w/ the current word
                 mMediaPlayer = MediaPlayer.create(FamilyActivity.this, word.getAudioResourceID());
                 mMediaPlayer.start();
+                mMediaPlayer.setOnCompletionListener(mCompletionListener);
             }
         });
     }
