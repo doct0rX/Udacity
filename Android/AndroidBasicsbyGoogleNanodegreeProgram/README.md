@@ -62,6 +62,7 @@ projects:
         - Audio Focus
             + [How to properly handle audio interruptions](https://medium.com/google-developers/how-to-properly-handle-audio-interruptions-3a13540d18fa) by Developer Advocate Joanna Smith
             + [Managing Audio Focus](https://developer.android.com/guide/topics/media-apps/volume-and-earphones.html)
+    * Touch Feedback with custom drawable [Codepath tutorial](https://guides.codepath.com/android/ripple-animation) on ripple animations.
 
 --------
 
