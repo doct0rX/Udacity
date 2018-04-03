@@ -59,10 +59,12 @@ projects:
         - [Supported Media Formats](https://developer.android.com/guide/topics/media/media-formats.html)
         - [Media playback the right way
 ](https://www.youtube.com/watch?v=XQwe30cZffg) (Big Android BBQ 2015)
+        - [Helpful StackOverflow Post](https://stackoverflow.com/questions/8515936/android-activity-life-cycle-what-are-all-these-methods-for/8516056#8516056)
         - Audio Focus
             + [How to properly handle audio interruptions](https://medium.com/google-developers/how-to-properly-handle-audio-interruptions-3a13540d18fa) by Developer Advocate Joanna Smith
             + [Managing Audio Focus](https://developer.android.com/guide/topics/media-apps/volume-and-earphones.html)
     * Touch Feedback with custom drawable [Codepath tutorial](https://guides.codepath.com/android/ripple-animation) on ripple animations.
+
 
 --------
 
