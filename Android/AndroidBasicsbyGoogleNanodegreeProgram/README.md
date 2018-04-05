@@ -13,7 +13,7 @@ projects
 4) [Musical Structure](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p4-musical-structure)
 
 5) [Tour Guide App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p5-tour-guide-app)
-
+ 
 ------------
 
 ### Added By doct0rX 👾 Throughout The Nanodegree:
