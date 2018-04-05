@@ -68,6 +68,10 @@ projects
         + Navigation patterns in some Apps:
             - http://androidniceties.tumblr.com/
             - https://pttrns.com/android-patterns?srtby=popularity_desc
+        + [Add Up Button to your Activity](https://developer.android.com/training/implementing-navigation/ancestral.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+        + Additional Resources on Navigation:
+            - http://developer.android.com/training/design-navigation/ancestral-temporal.html
+            - http://developer.android.com/design/patterns/navigation.html
 
 --------
 
