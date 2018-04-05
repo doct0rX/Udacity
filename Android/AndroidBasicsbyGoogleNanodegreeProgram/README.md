@@ -65,6 +65,9 @@ projects
     * Touch Feedback with custom drawable [Codepath tutorial](https://guides.codepath.com/android/ripple-animation) on ripple animations.
     * Navigation Patterns and Fragments in Android
         + As I build My own app, I can learn more about how to structure your app in both the [navigation section](https://material.io/guidelines/patterns/navigation.html#) of the Google Material Design spec and this guide on [designing effective navigation](https://developer.android.com/training/design-navigation/index.html).
+        + Navigation patterns in some Apps:
+            - http://androidniceties.tumblr.com/
+            - https://pttrns.com/android-patterns?srtby=popularity_desc
 
 --------
 
