@@ -72,6 +72,9 @@ projects
         + Additional Resources on Navigation:
             - http://developer.android.com/training/design-navigation/ancestral-temporal.html
             - http://developer.android.com/design/patterns/navigation.html
+        + Android Development Patterns:
+            - [Short Android Development Patterns video](https://www.youtube.com/watch?v=zQekzaAgIlQ)
+            - [these videos](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM) will teach me how to build better apps by explaining the fundamental components of Android development, the reasoning behind them, and best practices for using them in my app.
 
 --------
 
