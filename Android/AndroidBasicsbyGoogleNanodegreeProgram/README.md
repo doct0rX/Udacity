@@ -1,7 +1,7 @@
 Android Basics by Google Nanodegree Program
 ==========================================
 
-projects:
+projects
 --------
 
 1) [Business Card App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p1-business-card-app)
@@ -63,7 +63,8 @@ projects:
             + [How to properly handle audio interruptions](https://medium.com/google-developers/how-to-properly-handle-audio-interruptions-3a13540d18fa) by Developer Advocate Joanna Smith
             + [Managing Audio Focus](https://developer.android.com/guide/topics/media-apps/volume-and-earphones.html)
     * Touch Feedback with custom drawable [Codepath tutorial](https://guides.codepath.com/android/ripple-animation) on ripple animations.
-
+    * Navigation Patterns and Fragments in Android
+        + As I build My own app, I can learn more about how to structure your app in both the [navigation section](https://material.io/guidelines/patterns/navigation.html#) of the Google Material Design spec and this guide on [designing effective navigation](https://developer.android.com/training/design-navigation/index.html).
 
 --------
 
