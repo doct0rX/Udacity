@@ -75,6 +75,8 @@ projects
         + Android Development Patterns:
             - [Short Android Development Patterns video](https://www.youtube.com/watch?v=zQekzaAgIlQ)
             - [these videos](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM) will teach me how to build better apps by explaining the fundamental components of Android development, the reasoning behind them, and best practices for using them in my app.
+        + Fragments Advanced tip:
+            -  I can contain logic to change the text displayed in the TextView depending on the String passed into it. Use the Fragment [setArguments(Bundle args) method](https://developer.android.com/reference/android/app/Fragment.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#setArguments(android.os.Bundle)). See the [Fragments guide](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) for more details.
 
 --------
 
