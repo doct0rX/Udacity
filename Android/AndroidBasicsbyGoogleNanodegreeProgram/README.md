@@ -77,6 +77,7 @@ projects
             - [these videos](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM) will teach me how to build better apps by explaining the fundamental components of Android development, the reasoning behind them, and best practices for using them in my app.
         + Fragments Advanced tip:
             -  I can contain logic to change the text displayed in the TextView depending on the String passed into it. Use the Fragment [setArguments(Bundle args) method](https://developer.android.com/reference/android/app/Fragment.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#setArguments(android.os.Bundle)). See the [Fragments guide](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) for more details.
+            - Fragment is a tricky topic. And for more details now, see the [Fragment developer guide](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) on how to [handle the Fragment lifecycle](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Lifecycle) or how to [build a dynamic UI with Fragments](https://developer.android.com/training/basics/fragments/index.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics). There are also plenty of other tutorials on Fragments written by developers in the community.
 
 --------
 
