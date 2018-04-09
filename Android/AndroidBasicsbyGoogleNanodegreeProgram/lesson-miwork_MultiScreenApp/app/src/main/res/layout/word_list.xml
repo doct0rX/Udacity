@@ -20,4 +20,4 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="true"
     android:orientation="vertical"
-    tools:context="com.example.android.miwok.NumbersActivity" />
+     />
