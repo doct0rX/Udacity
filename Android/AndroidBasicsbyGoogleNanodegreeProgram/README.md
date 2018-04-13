@@ -78,6 +78,10 @@ projects
         + Fragments Advanced tip:
             -  I can contain logic to change the text displayed in the TextView depending on the String passed into it. Use the Fragment [setArguments(Bundle args) method](https://developer.android.com/reference/android/app/Fragment.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#setArguments(android.os.Bundle)). See the [Fragments guide](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) for more details.
             - Fragment is a tricky topic. And for more details now, see the [Fragment developer guide](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) on how to [handle the Fragment lifecycle](https://developer.android.com/guide/components/fragments.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Lifecycle) or how to [build a dynamic UI with Fragments](https://developer.android.com/training/basics/fragments/index.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics). There are also plenty of other tutorials on Fragments written by developers in the community.
+            
+            -> added after commit of:
+            -- Add Android Design Support Library to Your Project -- 
+             - configuring the build.gradle file, see this [article](https://developer.android.com/studio/build/build-variants.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).  There’s also an advanced [Udacity course](https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
 
 --------
 
