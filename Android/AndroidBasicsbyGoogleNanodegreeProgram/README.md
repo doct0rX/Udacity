@@ -81,7 +81,7 @@ projects
             
             -> added after commit of:
             -- Add Android Design Support Library to Your Project -- 
-             - configuring the build.gradle file, see this [article](https://developer.android.com/studio/build/build-variants.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).  There’s also an advanced [Udacity course](https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
+             - Gradle is the tool that Android Studio uses to generate the apk (app file) that goes onto the device. For more info on  configuring the build.gradle file, see this [article](https://developer.android.com/studio/build/build-variants.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).  There’s also an advanced [Udacity course](https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
 
 --------
 
