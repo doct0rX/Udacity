@@ -1,5 +1,6 @@
 package com.example.doctorx.p5_tour_guide_app;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.BaseAdapter;
@@ -19,7 +20,7 @@ public class CityAdapter extends BaseAdapter {
     private final int[] cityName;
     private final int[] imageId;
 
-    public CityAdapter(Context c, int[] cityName, int[] imageId) {
+    CityAdapter(Context c, int[] cityName, int[] imageId) {
         mContext = c;
         this.imageId = imageId;
         this.cityName = cityName;
@@ -42,15 +43,16 @@ public class CityAdapter extends BaseAdapter {
         return 0;
     }
 
+    @SuppressLint("InflateParams")
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View grid;
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 	        if (convertView == null) {
-
-	        	grid = new View(mContext);
-				grid = inflater.inflate(R.layout.grid_single, null);
+                new View(mContext);
+                assert inflater != null;
+                grid = inflater.inflate(R.layout.grid_single, null);
 	        	TextView textView = grid.findViewById(R.id.grid_text);
 	        	ImageView imageView = grid.findViewById(R.id.grid_image);
 	        	textView.setText(cityName[position]);
