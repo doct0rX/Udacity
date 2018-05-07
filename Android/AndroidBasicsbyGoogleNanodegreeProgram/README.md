@@ -23,6 +23,7 @@ projects
 * #### RESOURCES:
     * [List Interface](https://developer.android.com/reference/java/util/List)
         + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList)
+            - [Example on ArrayLists in Java](https://beginnersbook.com/2013/12/java-arraylist/)
     * Click Listeners:
         + [Button Click Listeners in Android](https://stackoverflow.com/questions/8977212/button-click-listeners-in-android)
         + [Android button example](http://www.mkyong.com/android/android-button-example/)
