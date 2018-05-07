@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide</string>
     <string name="alex">Alex</string>
+    <string name="cairo">Cairo</string>
+    <string name="luxor">Luxor</string>
+    <string name="aswan">Aswan</string>
 </resources>

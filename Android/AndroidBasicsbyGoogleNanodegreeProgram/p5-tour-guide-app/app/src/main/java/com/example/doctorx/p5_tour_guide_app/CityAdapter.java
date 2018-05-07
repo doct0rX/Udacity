@@ -16,10 +16,10 @@ import android.widget.TextView;
 
 public class CityAdapter extends BaseAdapter {
     private Context mContext;
-    private final String[] cityName;
+    private final int[] cityName;
     private final int[] imageId;
 
-    public CityAdapter(Context c, String[] cityName, int[] imageId) {
+    public CityAdapter(Context c, int[] cityName, int[] imageId) {
         mContext = c;
         this.imageId = imageId;
         this.cityName = cityName;
@@ -51,7 +51,7 @@ public class CityAdapter extends BaseAdapter {
 
 	        	grid = new View(mContext);
 				grid = inflater.inflate(R.layout.grid_single, null);
-	        	TextView textView =  grid.findViewById(R.id.grid_text);
+	        	TextView textView = grid.findViewById(R.id.grid_text);
 	        	ImageView imageView = grid.findViewById(R.id.grid_image);
 	        	textView.setText(cityName[position]);
 	        	imageView.setImageResource(imageId[position]);

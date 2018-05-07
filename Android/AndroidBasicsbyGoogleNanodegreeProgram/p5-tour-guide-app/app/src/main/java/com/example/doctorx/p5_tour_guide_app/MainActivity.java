@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
-    String[] cityName = {"Alex", "Cairo", "Luxor", "Aswan"};
+    int[] cityName = {R.string.alex, R.string.cairo, R.string.luxor, R.string.aswan};
     int[] imageId = {R.drawable.alex, R.drawable.cairo, R.drawable.luxor, R.drawable.aswan};
 
     public void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "You Clicked at " +cityName[+ position], Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "You Clicked at " + getString(cityName[position]), Toast.LENGTH_SHORT).show();
             }
         });
     }
