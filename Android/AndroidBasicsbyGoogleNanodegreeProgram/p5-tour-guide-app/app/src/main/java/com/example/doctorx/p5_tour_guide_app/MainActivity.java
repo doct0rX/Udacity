@@ -28,11 +28,19 @@ public class MainActivity extends AppCompatActivity {
 
 
                 // intent doesn't work for now!
-//                if (position == 0) {
-//                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
-//                    startActivityForResult(myIntent, 0);
-//                    startActivity(myIntent);
-//                }
+                if (position == 0) {
+                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
+                    startActivity(myIntent);
+                } else if (position == 1) {
+                    Intent myIntent = new Intent(MainActivity.this, AlexRestaurants.class);
+                    startActivity(myIntent);
+                } else if (position == 2) {
+                    Intent myIntent = new Intent(MainActivity.this, AlexShops.class);
+                    startActivity(myIntent);
+                } else {
+                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
+                    startActivity(myIntent);
+                }
             }
         });
     }

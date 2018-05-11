@@ -1,6 +1,5 @@
 package com.example.doctorx.p5_tour_guide_app;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +13,6 @@ import java.util.ArrayList;
  * For Shops at Alex City
  */
 
-@SuppressLint("Registered")
 public class AlexShops extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

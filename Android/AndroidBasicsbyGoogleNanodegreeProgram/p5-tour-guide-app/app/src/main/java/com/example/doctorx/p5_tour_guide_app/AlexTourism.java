@@ -14,9 +14,7 @@ import java.util.ArrayList;
  * Tourism Places at Alex City
  */
 
-@SuppressLint("Registered")
 public class AlexTourism extends AppCompatActivity {
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -20,6 +20,12 @@ public class CityAdapter extends BaseAdapter {
     private final int[] cityName;
     private final int[] imageId;
 
+    /**
+     * My Own Custom Constructor for the City Object.
+     * @param c context
+     * @param cityName Name of the city
+     * @param imageId Image of the city
+     */
     CityAdapter(Context c, int[] cityName, int[] imageId) {
         mContext = c;
         this.imageId = imageId;
