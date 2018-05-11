@@ -56,6 +56,7 @@ projects
         + [Android Best Practices for Performance](https://developer.android.com/topic/performance/index.html)
         + [Android Best Practices by Mindorks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
     * Don't re-invent the wheel. Use Libraries wherever possible to make the job easier and more stable. Find awesome libraries [here](https://android-arsenal.com/) and [here](https://github.com/codepath/android_guides/wiki/Must-Have-Libraries).
+    * [How do I get the current GPS location programmatically in Android? **_Stack Overflow_**](https://stackoverflow.com/questions/1513485/how-do-i-get-the-current-gps-location-programmatically-in-android)
     * [Android Constrain Layout](https://developer.android.com/training/constraint-layout/index.html)
     * Activity Cycle And Audio Playback
         - [Providing resources in Android](https://developer.android.com/guide/topics/resources/providing-resources.html) (including an explanation of the “raw” folder)
