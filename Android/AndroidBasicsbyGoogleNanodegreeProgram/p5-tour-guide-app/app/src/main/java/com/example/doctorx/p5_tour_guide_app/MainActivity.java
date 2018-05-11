@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
+
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
     int[] cityName = {R.string.alex, R.string.cairo, R.string.luxor, R.string.aswan};
@@ -25,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(MainActivity.this, "You Clicked at " + getString(cityName[position]), Toast.LENGTH_SHORT).show();
 
+
+                // intent doesn't work for now!
+//                if (position == 0) {
+//                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
+//                    startActivityForResult(myIntent, 0);
+//                    startActivity(myIntent);
+//                }
             }
         });
     }
