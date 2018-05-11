@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent myIntent = new Intent(MainActivity.this, AlexShops.class);
                     startActivity(myIntent);
                 } else {
-                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
+                    Intent myIntent = new Intent(MainActivity.this, AboutAlex.class);
                     startActivity(myIntent);
                 }
             }

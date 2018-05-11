@@ -19,6 +19,7 @@
         <activity android:name=".AlexRestaurants" />
         <activity android:name=".AlexTourism" />
         <activity android:name=".AlexShops" />
+        <activity android:name=".AboutAlex"></activity>
     </application>
 
 </manifest>
