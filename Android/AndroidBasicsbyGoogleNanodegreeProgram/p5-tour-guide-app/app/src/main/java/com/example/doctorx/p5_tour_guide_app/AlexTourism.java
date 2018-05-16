@@ -1,9 +1,11 @@
 package com.example.doctorx.p5_tour_guide_app;
 
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -56,5 +58,18 @@ public class AlexTourism extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.list_of_places);
         listView.setAdapter(tPlaces);
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Intent intent = new Intent(AlexTourism.this, MainActivity.class);
+//                String msg = "abc";
+//                intent.putExtra(Intent.EXTRA_PACKAGE_NAME, msg);
+//                startActivity(intent);
+                PlaceItemAbout placeItemAbout = new PlaceItemAbout(AlexTourism.this, R.drawable.abu_al_abbas_al_mursi_mosque, "Royal Jewelry Museum");
+ 
+            }
+        });
     }
 }

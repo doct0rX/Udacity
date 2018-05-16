@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_about_item"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        tools:src="@drawable/alex"
+        android:contentDescription="@string/alex" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="@string/about_alex"
+        android:padding="@dimen/fifteen"
+        android:id="@+id/txt_about_item"/>
+
+</LinearLayout>
