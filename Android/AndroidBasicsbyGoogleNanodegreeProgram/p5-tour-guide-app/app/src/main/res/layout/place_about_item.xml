@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
 
     <ImageView
         android:id="@+id/img_about_item"
-        android:layout_width="match_parent"
-        android:layout_height="290dp"
-        tools:src="@drawable/alex"
-        android:contentDescription="@string/alex" />
+        android:layout_width="384dp"
+        android:layout_height="287dp"
+        tools:src="@drawable/alex" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:text="@string/about_alex"
-        android:padding="@dimen/fifteen"
-        android:id="@+id/txt_about_item"/>
+        android:id="@+id/txt_about_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        tools:text="@string/about_alex" />
 
 </LinearLayout>

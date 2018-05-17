@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <GridView
+    <ListView
         android:numColumns="1"
         android:gravity="center"
         android:stretchMode="columnWidth"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/grid_item"
+        android:id="@+id/list_about_item"
         android:padding="3dp"
         />
 

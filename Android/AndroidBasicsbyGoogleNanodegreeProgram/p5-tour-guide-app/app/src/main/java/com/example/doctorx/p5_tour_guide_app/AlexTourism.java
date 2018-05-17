@@ -63,12 +63,15 @@ public class AlexTourism extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                Intent intent = new Intent(AlexTourism.this, MainActivity.class);
-//                String msg = "abc";
-//                intent.putExtra(Intent.EXTRA_PACKAGE_NAME, msg);
-//                startActivity(intent);
-                PlaceItemAbout placeItemAbout = new PlaceItemAbout(AlexTourism.this, R.drawable.abu_al_abbas_al_mursi_mosque, "Royal Jewelry Museum");
- 
+                Intent intent = new Intent(AlexTourism.this, MainActivity.class);
+                String msg = "abc";
+                intent.putExtra(Intent.EXTRA_PACKAGE_NAME, msg);
+                startActivity(intent);
+
+
+//                PlaceItemAbout placeItemAbout = new PlaceItemAbout(AlexTourism.this, R.drawable.alex_royal_jewellery_mus_left, "Royal Jewelry Museum");
+//                GridView grid = findViewById(R.id.grid_about_item);
+//                grid.setAdapter(placeItemAbout);
             }
         });
     }
