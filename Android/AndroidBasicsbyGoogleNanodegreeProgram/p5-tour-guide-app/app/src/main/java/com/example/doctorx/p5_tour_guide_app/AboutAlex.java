@@ -27,4 +27,11 @@ public class AboutAlex extends AppCompatActivity {
             }
         });
     }
+
+    public void onBackPressed() {
+        // your code.
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

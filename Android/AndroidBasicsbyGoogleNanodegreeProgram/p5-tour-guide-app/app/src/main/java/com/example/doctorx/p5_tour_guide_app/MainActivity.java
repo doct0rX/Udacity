@@ -46,53 +46,24 @@ public class MainActivity extends AppCompatActivity {
 
                 } else if (position == 1) {
                     setContentView(R.layout.activity_view_pager);
-
-                    // Find the view pager that will allow the user to swipe between fragments
                     ViewPager viewPager = findViewById(R.id.viewpager);
-
-                    // Create an adapter that knows which fragment should be shown on each page
                     MainPager adapter = new MainPager(MainActivity.this, getSupportFragmentManager());
-
-                    // Set the adapter onto the view pager
                     viewPager.setAdapter(adapter);
-
-                    // Find the tab layout that shows the tabs
                     TabLayout tabLayout = findViewById(R.id.tabs);
-
                     tabLayout.setupWithViewPager(viewPager);
-
                 } else if (position == 2) {
                     setContentView(R.layout.activity_view_pager);
-
-                    // Find the view pager that will allow the user to swipe between fragments
                     ViewPager viewPager = findViewById(R.id.viewpager);
-
-                    // Create an adapter that knows which fragment should be shown on each page
                     MainPager adapter = new MainPager(MainActivity.this, getSupportFragmentManager());
-
-                    // Set the adapter onto the view pager
                     viewPager.setAdapter(adapter);
-
-                    // Find the tab layout that shows the tabs
                     TabLayout tabLayout = findViewById(R.id.tabs);
-
                     tabLayout.setupWithViewPager(viewPager);
-
                 } else {
                     setContentView(R.layout.activity_view_pager);
-
-                    // Find the view pager that will allow the user to swipe between fragments
                     ViewPager viewPager = findViewById(R.id.viewpager);
-
-                    // Create an adapter that knows which fragment should be shown on each page
                     MainPager adapter = new MainPager(MainActivity.this, getSupportFragmentManager());
-
-                    // Set the adapter onto the view pager
                     viewPager.setAdapter(adapter);
-
-                    // Find the tab layout that shows the tabs
                     TabLayout tabLayout = findViewById(R.id.tabs);
-
                     tabLayout.setupWithViewPager(viewPager);
                 }
 
