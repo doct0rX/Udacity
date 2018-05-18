@@ -1,13 +1,12 @@
 package com.example.doctorx.p5_tour_guide_app;
 
-import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
-
 
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
@@ -28,18 +27,54 @@ public class MainActivity extends AppCompatActivity {
 
                 // intent doesn't work for now!
                 if (position == 0) {
-                    Intent myIntent = new Intent(MainActivity.this, AlexTourism.class);
-                    startActivity(myIntent);
+                    setContentView(R.layout.activity_view_pager);
+
+                    // Find the view pager that will allow the user to swipe between fragments
+                    ViewPager viewPager = findViewById(R.id.viewpager);
+
+                    // Create an adapter that knows which fragment should be shown on each page
+                    MainPager adapter = new MainPager(getSupportFragmentManager());
+
+                    // Set the adapter onto the view pager
+                    viewPager.setAdapter(adapter);
+
                 } else if (position == 1) {
-                    Intent myIntent = new Intent(MainActivity.this, AlexRestaurants.class);
-                    startActivity(myIntent);
+                    setContentView(R.layout.activity_view_pager);
+
+                    // Find the view pager that will allow the user to swipe between fragments
+                    ViewPager viewPager = findViewById(R.id.viewpager);
+
+                    // Create an adapter that knows which fragment should be shown on each page
+                    MainPager adapter = new MainPager(getSupportFragmentManager());
+
+                    // Set the adapter onto the view pager
+                    viewPager.setAdapter(adapter);
+
                 } else if (position == 2) {
-                    Intent myIntent = new Intent(MainActivity.this, AlexShops.class);
-                    startActivity(myIntent);
+                    setContentView(R.layout.activity_view_pager);
+
+                    // Find the view pager that will allow the user to swipe between fragments
+                    ViewPager viewPager = findViewById(R.id.viewpager);
+
+                    // Create an adapter that knows which fragment should be shown on each page
+                    MainPager adapter = new MainPager(getSupportFragmentManager());
+
+                    // Set the adapter onto the view pager
+                    viewPager.setAdapter(adapter);
+
                 } else {
-                    Intent myIntent = new Intent(MainActivity.this, AboutAlex.class);
-                    startActivity(myIntent);
+                    setContentView(R.layout.activity_view_pager);
+
+                    // Find the view pager that will allow the user to swipe between fragments
+                    ViewPager viewPager = findViewById(R.id.viewpager);
+
+                    // Create an adapter that knows which fragment should be shown on each page
+                    MainPager adapter = new MainPager(getSupportFragmentManager());
+
+                    // Set the adapter onto the view pager
+                    viewPager.setAdapter(adapter);
                 }
+
             }
         });
     }
