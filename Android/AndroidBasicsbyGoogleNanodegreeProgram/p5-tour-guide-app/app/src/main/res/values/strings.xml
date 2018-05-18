@@ -10,4 +10,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tourism">Tourism</string>
+    <string name="shop">Shopping</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="about">About</string>
 </resources>
