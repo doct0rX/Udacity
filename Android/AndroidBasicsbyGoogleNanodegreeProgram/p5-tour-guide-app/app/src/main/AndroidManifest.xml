@@ -18,10 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlexRestaurants" />
-        <activity android:name=".AlexTourism" />
-        <activity android:name=".AlexShops" />
         <activity android:name=".AboutAlex" />
+
     </application>
 
 </manifest>
