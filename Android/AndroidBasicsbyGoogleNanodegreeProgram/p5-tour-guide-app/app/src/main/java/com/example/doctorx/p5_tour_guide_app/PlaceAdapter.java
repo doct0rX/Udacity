@@ -39,23 +39,22 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if(listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.place_item, parent, false);
+        if(convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.place_item, parent, false);
         }
 
         /** Get the {@link Place} object located at this position in the list */
         Place currentPlace = getItem(position);
 
         /** find the Image View */
-        ImageView cityImg = listItemView.findViewById(R.id.place_image);
+        ImageView cityImg = convertView.findViewById(R.id.place_image);
         assert currentPlace != null;
         cityImg.setImageResource(currentPlace.getImagePlace());
 
         /** Find the textView */
-        TextView cityName = listItemView.findViewById(R.id.place_text);
+        TextView cityName = convertView.findViewById(R.id.place_text);
         cityName.setText(currentPlace.getStringPlace());
 
-        return listItemView;
+        return convertView;
     }
 }
