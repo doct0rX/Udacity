@@ -21,6 +21,9 @@ projects
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
 
 * #### RESOURCES:
+
+    > **_Multi-Screen Apps:_**
+
     * [List Interface](https://developer.android.com/reference/java/util/List)
         + [ArrayList class](https://developer.android.com/reference/java/util/ArrayList)
             - [Example on ArrayLists in Java](https://beginnersbook.com/2013/12/java-arraylist/)
@@ -93,6 +96,8 @@ projects
     * Notes from Project 5 &rarr; __Tour Project__:
         + [understanding how references work in Android and Java](https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83)
         + Improving App Profermonce by [Making ListView Scrolling Smooth](https://developer.android.com/training/improving-layouts/smooth-scrolling) by ViewHolder.
+
+    > **_Networking:_**
 
 --------
 
