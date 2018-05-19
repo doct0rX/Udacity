@@ -28,6 +28,8 @@ class MainPager extends FragmentPagerAdapter{
             return mContext.getString(R.string.shop);
         } else if (position == 2) {
             return mContext.getString(R.string.restaurants);
+        } else if (position == 3) {
+            return mContext.getString(R.string.parks);
         } else {
             return mContext.getString(R.string.about);
         }
@@ -44,6 +46,8 @@ class MainPager extends FragmentPagerAdapter{
             return new ShopFragment();
         } else if (position == 2) {
             return new RestaurantFragment();
+        } else if (position == 3) {
+            return new ParkFragment();
         } else {
             return new AboutFragment();
         }
@@ -54,6 +58,6 @@ class MainPager extends FragmentPagerAdapter{
      */
     @Override
     public int getCount() {
-        return 4;
+        return 5;
     }
 }
