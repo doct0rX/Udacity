@@ -90,6 +90,9 @@ projects
             - [Styling the TabLayout](https://guides.codepath.com/android/google-play-style-tabs-using-tablayout#styling-the-tablayout)
         + Add Android Design Support Library to Your Project
              - Gradle is the tool that Android Studio uses to generate the apk (app file) that goes onto the device. For more info on  configuring the build.gradle file, see this [article](https://developer.android.com/studio/build/build-variants.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).  There’s also an advanced [Udacity course](https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
+    * Notes from Project 5 &rarr; __Tour Project__:
+        + [understanding how references work in Android and Java](https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83)
+        + Improving App Profermonce by [Making ListView Scrolling Smooth](https://developer.android.com/training/improving-layouts/smooth-scrolling) by ViewHolder.
 
 --------
 
