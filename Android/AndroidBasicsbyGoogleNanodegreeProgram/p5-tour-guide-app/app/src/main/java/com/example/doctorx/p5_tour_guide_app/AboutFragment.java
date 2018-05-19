@@ -31,9 +31,9 @@ public class AboutFragment extends Fragment {
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri gmmIntentUri = Uri.parse("geo:38.8048,-77.0469");
+                Uri gmmIntentUri = Uri.parse(getString(R.string.location_uri));
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
+                mapIntent.setPackage(getString(R.string.map_intent));
                 startActivity(mapIntent);
             }
         });

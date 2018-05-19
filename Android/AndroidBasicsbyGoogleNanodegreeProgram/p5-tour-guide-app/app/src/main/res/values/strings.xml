@@ -14,4 +14,25 @@
     <string name="shop">Shopping</string>
     <string name="restaurants">Restaurants</string>
     <string name="about">About</string>
+    <string name="park_waterfront">Waterfront Park</string>
+    <string name="park_windmill">Windmill Hill Park</string>
+    <string name="park_founders">Founders Park</string>
+    <string name="park_beverley">Beverley Park</string>
+    <string name="park_cameron_run">Cameron Run Regional Park</string>
+    <string name="parks">Parks</string>
+    <string name="shop_bands">BRANDS SHOP</string>
+    <string name="shop_city_center">City Centre Alexandria</string>
+    <string name="shop_paws">Paws \'n paws pet shop</string>
+    <string name="shop_computer_shop">Computer Shop</string>
+    <string name="shop_fighter_pet">Fighter Pet Shop</string>
+    <string name="location_uri">geo:38.8048,-77.0469</string>
+    <string name="map_intent">com.google.android.apps.maps</string>
+    <string name="you_clicked_at">You Clicked at</string>
+    <string name="place_citadel_of_qaitbay">Citadel Of Qaitbay</string>
+    <string name="place_montaza">Montaza Palace</string>
+    <string name="place_bibliotheca_alex">Bibliotheca Alexandrina</string>
+    <string name="place_pompey">Pompey\'s Pillar</string>
+    <string name="place_abu_al_abbas_al_mursi_mosque">Abu al-Abbas al-Mursi Mosque</string>
+    <string name="place_catacombs">Catacombs of Kom El Shoqafa</string>
+    <string name="place_royal_jewelry_museum">Royal Jewelry Museum</string>
 </resources>

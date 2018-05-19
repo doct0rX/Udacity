@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "You Clicked at " + getString(cityName[position]), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, getString(R.string.you_clicked_at) + getString(cityName[position]), Toast.LENGTH_SHORT).show();
 
                 // intent doesn't work for now!
                 if (position == 0) {

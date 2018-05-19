@@ -2,12 +2,12 @@ package com.example.doctorx.p5_tour_guide_app;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -23,27 +23,43 @@ public class RestaurantFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_of_places, container, false);
 
         // Create list of Restaurants
         ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(R.drawable.sea_gull, "BRANDS SHOP"));
-        places.add(new Place(R.drawable.fish_market, "City Centre Alexandria"));
-        places.add(new Place(R.drawable.fresca, "Paws 'n paws pet shop"));
-        places.add(new Place(R.drawable.byblos_restaurant, "Computer Shop"));
-        places.add(new Place(R.drawable.hosni, "Fighter Pet Shop"));
-        places.add(new Place(R.drawable.fish_market, "Fighter Pet Shop"));
-        places.add(new Place(R.drawable.shrimp_sole, "Fighter Pet Shop"));
-        places.add(new Place(R.drawable.sea_gull, "BRANDS SHOP"));
-        places.add(new Place(R.drawable.fish_market, "City Centre Alexandria"));
-        places.add(new Place(R.drawable.fresca, "Paws 'n paws pet shop"));
-        places.add(new Place(R.drawable.byblos_restaurant, "Computer Shop"));
-        places.add(new Place(R.drawable.hosni, "Fighter Pet Shop"));
-        places.add(new Place(R.drawable.fish_market, "Fighter Pet Shop"));
-        places.add(new Place(R.drawable.shrimp_sole, "Fighter Pet Shop"));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
+        places.add(new Place(R.drawable.sea_gull, getString(R.string.shop_bands)));
+        places.add(new Place(R.drawable.fish_market, getString(R.string.shop_city_center)));
+        places.add(new Place(R.drawable.fresca, getString(R.string.shop_paws)));
+        places.add(new Place(R.drawable.byblos_restaurant, getString(R.string.shop_computer_shop)));
+        places.add(new Place(R.drawable.hosni, getString(R.string.shop_fighter_pet)));
 
         PlaceAdapter tPlaces = new PlaceAdapter(getActivity(), places);
 
