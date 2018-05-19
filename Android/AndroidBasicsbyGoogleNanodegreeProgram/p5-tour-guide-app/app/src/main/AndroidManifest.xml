@@ -7,6 +7,7 @@
         android:allowBackup="true"
         android:icon="@drawable/alex"
         android:label="@string/app_name"
+        android:parentActivityName=".MainActivity"
         android:roundIcon="@drawable/alex"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
