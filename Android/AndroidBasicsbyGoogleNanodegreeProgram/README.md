@@ -98,7 +98,7 @@ projects
         + Improving App Profermonce by [Making ListView Scrolling Smooth](https://developer.android.com/training/improving-layouts/smooth-scrolling) by ViewHolder.
 
     > **_Networking:_**
-
+    * [Tips for building a great UI](https://developer.android.com/guide/topics/ui/)
 --------
 
 #### OnClickListener vs onClick
