@@ -13,8 +13,24 @@ projects
 4) [Musical Structure](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p4-musical-structure)
 
 5) [Tour Guide App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p5-tour-guide-app)
- 
-------------
+
+-----------
+
+Extractive Weekly Check In Resources:
+-------
+MAY 24, 2018
+
+Hey Mustafa! How are you doing and how's the learning going?
+
+I have some great resources that can come in handy for you:
+
+Plugins:
+
+ADB Idea : https://plugins.jetbrains.com/plugin/7380-adb-idea Rainglow Color Schemens: https://plugins.jetbrains.com/plugin/10267-rainglow-color-schemes Material Theme UI: https://plugins.jetbrains.com/plugin/9377-material-theme-ui-eap Android Drawable Importer: https://plugins.jetbrains.com/plugin/7658-android-drawable-importer Blogs:
+
+https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-23051200e2b3 https://medium.com/@jordanjoz/12-android-blogs-you-should-be-following-1220c7e5398d https://android.jlelse.eu/ Preview for Rainglow Color Schemes: https://rainglow.io/ https://medium.com/mindorks https://medium.mybridge.co/38-amazing-android-open-source-apps-java-1a62b7034c40 https://github.com/Mybridge/amazing-android-apps If you are interested in web development, I recently came across an amazing website. Do check out: http://www.sbs.com.au/theboat
+
+-----------
 
 ### Added By doct0rX 👾 Throughout The Nanodegree:
 
