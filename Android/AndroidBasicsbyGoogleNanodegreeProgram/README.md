@@ -123,7 +123,12 @@ https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-2
 
         
     > **_Networking:_**
+    * [GitHub Code Base for THe Earthquake project](https://github.com/udacity/ud843-QuakeReport)
     * [Tips for building a great UI](https://developer.android.com/guide/topics/ui/)
+    * Debugging The App:
+        + [log messages](https://developer.android.com/studio/command-line/logcat?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#logClass)
+        + [Android Studio debugger](https://developer.android.com/studio/debug/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+
 --------
 
 #### OnClickListener vs onClick
