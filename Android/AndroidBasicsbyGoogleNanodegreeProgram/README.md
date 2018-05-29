@@ -128,6 +128,7 @@ https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-2
     * Debugging The App:
         + [log messages](https://developer.android.com/studio/command-line/logcat?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#logClass)
         + [Android Studio debugger](https://developer.android.com/studio/debug/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+    * [JSON Syntax Rules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 --------
 
