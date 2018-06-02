@@ -16,22 +16,6 @@ projects
 
 -----------
 
-Extractive Weekly Check In Resources:
--------
-MAY 24, 2018
-
-Hey Mustafa! How are you doing and how's the learning going?
-
-I have some great resources that can come in handy for you:
-
-Plugins:
-
-ADB Idea : https://plugins.jetbrains.com/plugin/7380-adb-idea Rainglow Color Schemens: https://plugins.jetbrains.com/plugin/10267-rainglow-color-schemes Material Theme UI: https://plugins.jetbrains.com/plugin/9377-material-theme-ui-eap Android Drawable Importer: https://plugins.jetbrains.com/plugin/7658-android-drawable-importer Blogs:
-
-https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-23051200e2b3 https://medium.com/@jordanjoz/12-android-blogs-you-should-be-following-1220c7e5398d https://android.jlelse.eu/ Preview for Rainglow Color Schemes: https://rainglow.io/ https://medium.com/mindorks https://medium.mybridge.co/38-amazing-android-open-source-apps-java-1a62b7034c40 https://github.com/Mybridge/amazing-android-apps If you are interested in web development, I recently came across an amazing website. Do check out: http://www.sbs.com.au/theboat
-
------------
-
 ### Added By doct0rX 👾 Throughout The Nanodegree:
 
 > Tongue Twister: When you click on something that is clickable that was previously set its OnClickListener, then the OnClick method of the OnClickListener will react quick. So what you wanna click?
@@ -129,8 +113,33 @@ https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-2
         + [log messages](https://developer.android.com/studio/command-line/logcat?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#logClass)
         + [Android Studio debugger](https://developer.android.com/studio/debug/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [JSON Syntax Rules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+    * [Tutorial on Parsing JSON in Android](http://www.tutorialspoint.com/android/android_json_parser.htm)
+        + Additional resources:
+            - [JSONObject](https://developer.android.com/reference/org/json/JSONObject.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+            - [JSONArray](https://developer.android.com/reference/org/json/JSONArray.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
+-----------
+
+
+Extractive Weekly Check In Resources:
 --------
+> MAY 24, 2018
+
+Hey Mustafa! How are you doing and how's the learning going?
+
+I have some great resources that can come in handy for you:
+
+Plugins:
+
+ADB Idea : https://plugins.jetbrains.com/plugin/7380-adb-idea Rainglow Color Schemens: https://plugins.jetbrains.com/plugin/10267-rainglow-color-schemes Material Theme UI: https://plugins.jetbrains.com/plugin/9377-material-theme-ui-eap Android Drawable Importer: https://plugins.jetbrains.com/plugin/7658-android-drawable-importer Blogs:
+
+https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-23051200e2b3 https://medium.com/@jordanjoz/12-android-blogs-you-should-be-following-1220c7e5398d https://android.jlelse.eu/ Preview for Rainglow Color Schemes: https://rainglow.io/ https://medium.com/mindorks https://medium.mybridge.co/38-amazing-android-open-source-apps-java-1a62b7034c40 https://github.com/Mybridge/amazing-android-apps If you are interested in web development, I recently came across an amazing website. Do check out: http://www.sbs.com.au/theboat
+
+> Jun 1, 2018
+
+[Create a Splash Screen on Android : the Right Way !](https://medium.com/@ssaurel/create-a-splash-screen-on-android-the-right-way-93d6fb444857)
+
+-----------
 
 #### OnClickListener vs onClick
 
