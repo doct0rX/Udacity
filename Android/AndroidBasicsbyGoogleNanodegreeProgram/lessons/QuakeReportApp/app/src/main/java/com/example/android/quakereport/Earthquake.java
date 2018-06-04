@@ -1,14 +1,14 @@
 package com.example.android.quakereport;
 
 public class Earthquake {
-    /* Magnitude */
+    /** Magnitude */
     private String mMagnitude;
 
-    /* Location */
+    /** Location */
     private String mLocation;
 
-    /* Date */
-    private String mDate;
+    /** Time of the earthquake */
+    private long mTimeInMilliseconds;
 
 
     /**
@@ -16,12 +16,13 @@ public class Earthquake {
      *
      * @param magnitude Mag/size of the earthquake
      * @param location City location of the earthquake
-     * @param date the date the earthquake happened
+     @param timeInMilliseconds is the time in milliseconds (from the Epoch) when the earthquake happened
      */
-    public Earthquake(String magnitude, String location, String date) {
+    public Earthquake(String magnitude, String location, long timeInMilliseconds) {
         mMagnitude = magnitude;
         mLocation = location;
-        mDate = date;
+        mTimeInMilliseconds = timeInMilliseconds;
+
     }
 
     /**
@@ -42,9 +43,9 @@ public class Earthquake {
 
     /**
      *
-     * @Returns the Date of the earthquake
+     * @Returns the time of the earthquake.
      */
-    public String getDate() {
-        return mDate;
+    public long getTimeInMilliseconds() {
+        return mTimeInMilliseconds;
     }
 }

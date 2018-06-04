@@ -1,15 +1,10 @@
 package com.example.android.quakereport;
 
-import org.json.JSONArray;
-
-import android.annotation.SuppressLint;
 import android.util.Log;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class QueryUtils {
 
@@ -56,11 +51,8 @@ public class QueryUtils {
                 String magnitude = properties.getString("mag");
                 String location = properties.getString("place");
                 long time = properties.getLong("time");
-                Date dateObject = new Date(time);
-                @SuppressLint("SimpleDateFormat") SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM DD, yyyy");
-                String dateToDisplay = dateFormatter.format(dateObject);
 
-                Earthquake earthquake = new Earthquake(magnitude, location, dateToDisplay);
+                Earthquake earthquake = new Earthquake(magnitude, location, time);
                 earthquakes.add(earthquake);
             }
 
