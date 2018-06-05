@@ -15,6 +15,8 @@ import java.util.List;
 
 public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
+    private static final String LOCATION_SEPARATOR = " of ";
+
     /**
      * Constructs a new {@link EarthquakeAdapter}.
      *
@@ -46,9 +48,6 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         assert currentEarthquake != null;
         magnitudeView.setText(currentEarthquake.getMagnitude());
 
-        // Same goes for Location && Date
-        TextView locationView = convertView.findViewById(R.id.location);
-        locationView.setText(currentEarthquake.getLocation());
 
         // Create a new Date object from the time in milliseconds of the earthquake
         Date dateObject = new Date(currentEarthquake.getTimeInMilliseconds());
@@ -59,6 +58,28 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         String formattedDate = formatDate(dateObject);
         // Display the date of the current earthquake in that TextView
         dateView.setText(formattedDate);
+
+        // Get the original location String from the Earthquake object and store that in a variable
+        String originalLocation = currentEarthquake.getLocation();
+
+        String primaryLocation;
+        String locationOffset;
+
+        if (originalLocation.contains(LOCATION_SEPARATOR)) {
+            String[] parts = originalLocation.split(LOCATION_SEPARATOR);
+            locationOffset = parts[0] + LOCATION_SEPARATOR;
+            primaryLocation = parts[1];
+        } else {
+            locationOffset = getContext().getString(R.string.near_the);
+            primaryLocation = originalLocation;
+        }
+
+        TextView primaryLocationView = convertView.findViewById(R.id.primary_location);
+        primaryLocationView.setText(primaryLocation);
+
+        TextView locationOffsetView = convertView.findViewById(R.id.location_offset);
+        locationOffsetView.setText(locationOffset);
+
 
         // Find the TextView with view ID time
         TextView timeView = convertView.findViewById(R.id.time);
