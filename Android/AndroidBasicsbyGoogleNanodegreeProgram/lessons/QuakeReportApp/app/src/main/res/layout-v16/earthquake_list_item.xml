@@ -16,17 +16,14 @@
         android:gravity="center"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        tools:text="8.1"
-        tools:targetApi="jelly_bean" />
+        tools:text="8.1" />
 
     <TextView
         android:id="@+id/location_offset"
-        android:layout_marginLeft="16dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        tools:text="30km S of"
-        android:layout_marginStart="16dp" />
+        tools:text="30km S of" />
 
     <TextView
         android:id="@+id/primary_location"
