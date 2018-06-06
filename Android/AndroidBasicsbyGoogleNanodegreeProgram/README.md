@@ -117,6 +117,9 @@ projects
         + Additional resources:
             - [JSONObject](https://developer.android.com/reference/org/json/JSONObject.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
             - [JSONArray](https://developer.android.com/reference/org/json/JSONArray.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+    * For Diving deep into the topic of shape drawables:
+        + [Documentation link](https://developer.android.com/guide/topics/resources/drawable-resource?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Shape)
+        + [Codepath tutorial](https://guides.codepath.com/android/Drawables)
 
 -----------
 
