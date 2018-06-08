@@ -120,6 +120,10 @@ projects
     * For Diving deep into the topic of shape drawables:
         + [Documentation link](https://developer.android.com/guide/topics/resources/drawable-resource?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#Shape)
         + [Codepath tutorial](https://guides.codepath.com/android/Drawables)
+    * API Resources:
+        + Programmable Web API Directory: http://www.programmableweb.com/apis/directory
+        + Google APIs Explorer: https://developers.google.com/apis-explorer/#p/
+        + Data.gov: http://data.gov
 
 -----------
 
