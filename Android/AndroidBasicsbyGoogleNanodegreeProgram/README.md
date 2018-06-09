@@ -107,7 +107,7 @@ projects
 
         
     > **_Networking:_**
-    * [GitHub Code Base for THe Earthquake project](https://github.com/udacity/ud843-QuakeReport)
+    * [GitHub Code Base for The Earthquake project](https://github.com/udacity/ud843-QuakeReport)
     * [Tips for building a great UI](https://developer.android.com/guide/topics/ui/)
     * Debugging The App:
         + [log messages](https://developer.android.com/studio/command-line/logcat?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#logClass)
@@ -129,6 +129,7 @@ projects
         + [Normal permissions](https://developer.android.com/guide/topics/permissions/overview?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#normal-dangerous)
         
             Other Resources: [Reference documentation for all permissions](https://developer.android.com/reference/android/Manifest.permission?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+    * [GitHub Code Base for The Soonami App project](https://github.com/udacity/ud843_Soonami)
 
 -----------
 
