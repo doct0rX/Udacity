@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.soonami">
 
     <application
@@ -29,5 +30,9 @@
             </intent-filter>
         </activity>
     </application>
+
+    <!--Permission for using the internet-->
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="ManifestOrder" />
 
 </manifest>
