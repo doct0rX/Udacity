@@ -124,6 +124,11 @@ projects
         + Programmable Web API Directory: http://www.programmableweb.com/apis/directory
         + Google APIs Explorer: https://developers.google.com/apis-explorer/#p/
         + Data.gov: http://data.gov
+    * Permission In Android:
+        + [Dangerous permissions](https://developer.android.com/guide/topics/permissions/overview?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#normal-dangerous)
+        + [Normal permissions](https://developer.android.com/guide/topics/permissions/overview?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#normal-dangerous)
+        
+            Other Resources: [Reference documentation for all permissions](https://developer.android.com/reference/android/Manifest.permission?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
 -----------
 
