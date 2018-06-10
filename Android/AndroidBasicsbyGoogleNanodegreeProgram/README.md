@@ -96,6 +96,7 @@ projects
              (https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
 
 
+
     * Notes from Project 5 &rarr; __Tour Project__:
         + [understanding how references work in Android and Java](https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83)
         + Improving App Profermonce by [Making ListView Scrolling Smooth](https://developer.android.com/training/improving-layouts/smooth-scrolling) by ViewHolder.
@@ -105,7 +106,7 @@ projects
         + > You have set the minSdkVersion to 22, this way, you only have access to 62,6% of the devices. Setting the minSdkVersion to 15, your app will have better access to the majority of devices in the market.
 
 
-        
+
     > **_Networking:_**
     * [GitHub Code Base for The Earthquake project](https://github.com/udacity/ud843-QuakeReport)
     * [Tips for building a great UI](https://developer.android.com/guide/topics/ui/)
@@ -130,7 +131,8 @@ projects
         
             Other Resources: [Reference documentation for all permissions](https://developer.android.com/reference/android/Manifest.permission?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [GitHub Code Base for The Soonami App project](https://github.com/udacity/ud843_Soonami)
-
+    * [Working with URL in Java](https://docs.oracle.com/javase/tutorial/networking/urls/)
+    
 -----------
 
 
