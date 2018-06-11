@@ -135,6 +135,8 @@ projects
     * Android Architure System:
         + [This](https://en.wikipedia.org/wiki/Android_(operating_system)#/media/File:Android-System-Architecture.svg) is an outdated system architecture diagram, but you can check it out if it helps you understand the layers better. There’s another diagram [here](https://source.android.com/devices/), which shows more technical details about the lower layers of the device architecture.
     * [HTTP request types](https://www.w3schools.com/tags/ref_httpmethods.asp) && [HTTP methods: GET vs POST](https://www.w3schools.com/tags/ref_httpmethods.asp)
+    * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
 -----------
 
 
