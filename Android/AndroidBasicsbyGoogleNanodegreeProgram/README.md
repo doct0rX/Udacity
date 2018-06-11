@@ -132,7 +132,9 @@ projects
             Other Resources: [Reference documentation for all permissions](https://developer.android.com/reference/android/Manifest.permission?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [GitHub Code Base for The Soonami App project](https://github.com/udacity/ud843_Soonami)
     * [Working with URL in Java](https://docs.oracle.com/javase/tutorial/networking/urls/)
-    
+    * Android Architure System:
+        + [This](https://en.wikipedia.org/wiki/Android_(operating_system)#/media/File:Android-System-Architecture.svg) is an outdated system architecture diagram, but you can check it out if it helps you understand the layers better. There’s another diagram [here](https://source.android.com/devices/), which shows more technical details about the lower layers of the device architecture.
+    * [HTTP request types](https://www.w3schools.com/tags/ref_httpmethods.asp) && [HTTP methods: GET vs POST](https://www.w3schools.com/tags/ref_httpmethods.asp)
 -----------
 
 
