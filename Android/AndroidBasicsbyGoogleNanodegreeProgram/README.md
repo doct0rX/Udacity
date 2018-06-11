@@ -14,6 +14,7 @@ projects
 
 5) [Tour Guide App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p5-tour-guide-app)
 
+6) [News App, Stage 1]()
 -----------
 
 ### Added By doct0rX 👾 Throughout The Nanodegree:
@@ -136,6 +137,10 @@ projects
         + [This](https://en.wikipedia.org/wiki/Android_(operating_system)#/media/File:Android-System-Architecture.svg) is an outdated system architecture diagram, but you can check it out if it helps you understand the layers better. There’s another diagram [here](https://source.android.com/devices/), which shows more technical details about the lower layers of the device architecture.
     * [HTTP request types](https://www.w3schools.com/tags/ref_httpmethods.asp) && [HTTP methods: GET vs POST](https://www.w3schools.com/tags/ref_httpmethods.asp)
     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+    * Exceptions:
+        + [Java Fundamentals Tutorial: Exceptions _**ProTech**_](https://www.protechtraining.com/bookshelf/java_fundamentals_tutorial/exceptions?ncr=1)
+        + [Specifying the Exceptions Thrown by a Method](https://docs.oracle.com/javase/tutorial/essential/exceptions/declaring.html)
+        + [Checked and unchecked exceptions _**Stack overflow**_](https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch)
 
 -----------
 
