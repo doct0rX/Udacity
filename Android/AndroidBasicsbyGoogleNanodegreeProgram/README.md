@@ -141,6 +141,7 @@ projects
         + [Java Fundamentals Tutorial: Exceptions _**ProTech**_](https://www.protechtraining.com/bookshelf/java_fundamentals_tutorial/exceptions?ncr=1)
         + [Specifying the Exceptions Thrown by a Method](https://docs.oracle.com/javase/tutorial/essential/exceptions/declaring.html)
         + [Checked and unchecked exceptions _**Stack overflow**_](https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch)
+    * [Basic Network Diagram](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/ABND%20Part%205%20L2%20Diagrams.pdf)
 
 -----------
 
