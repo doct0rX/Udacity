@@ -15,6 +15,9 @@ projects
 5) [Tour Guide App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p5-tour-guide-app)
 
 6) [News App, Stage 1]()
+
+7) [News App, Stage 2]()
+
 -----------
 
 ### Added By doct0rX 👾 Throughout The Nanodegree:
