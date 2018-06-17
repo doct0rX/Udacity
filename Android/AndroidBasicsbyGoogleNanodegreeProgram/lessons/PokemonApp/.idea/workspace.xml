@@ -60,14 +60,14 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/udacity/pokemon/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="506">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3658#4008#0" expanded="true" />
-                <element signature="e#4007#4008#0" expanded="true" />
-                <element signature="e#4144#4459#0" expanded="true" />
-                <element signature="e#4458#4459#0" expanded="true" />
+                <element signature="e#70302#70652#0" expanded="true" />
+                <element signature="e#70651#70652#0" expanded="true" />
+                <element signature="e#70788#71103#0" expanded="true" />
+                <element signature="e#71102#71103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2473,10 +2473,10 @@
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3658#4008#0" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4144#4459#0" expanded="true" />
-            <element signature="e#4458#4459#0" expanded="true" />
+            <element signature="e#70302#70652#0" expanded="true" />
+            <element signature="e#70651#70652#0" expanded="true" />
+            <element signature="e#70788#71103#0" expanded="true" />
+            <element signature="e#71102#71103#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2513,10 +2513,10 @@
           <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3658#4008#0" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4144#4459#0" expanded="true" />
-            <element signature="e#4458#4459#0" expanded="true" />
+            <element signature="e#70302#70652#0" expanded="true" />
+            <element signature="e#70651#70652#0" expanded="true" />
+            <element signature="e#70788#71103#0" expanded="true" />
+            <element signature="e#71102#71103#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2553,10 +2553,10 @@
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3658#4008#0" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4144#4459#0" expanded="true" />
-            <element signature="e#4458#4459#0" expanded="true" />
+            <element signature="e#70302#70652#0" expanded="true" />
+            <element signature="e#70651#70652#0" expanded="true" />
+            <element signature="e#70788#71103#0" expanded="true" />
+            <element signature="e#71102#71103#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2608,14 +2608,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/udacity/pokemon/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        <state relative-caret-position="506">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3658#4008#0" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4144#4459#0" expanded="true" />
-            <element signature="e#4458#4459#0" expanded="true" />
+            <element signature="e#70302#70652#0" expanded="true" />
+            <element signature="e#70651#70652#0" expanded="true" />
+            <element signature="e#70788#71103#0" expanded="true" />
+            <element signature="e#71102#71103#0" expanded="true" />
           </folding>
         </state>
       </provider>
