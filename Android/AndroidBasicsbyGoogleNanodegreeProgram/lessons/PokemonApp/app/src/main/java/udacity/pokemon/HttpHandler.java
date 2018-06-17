@@ -34,8 +34,8 @@ public class HttpHandler {
         try {
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");
-            urlConnection.setReadTimeout(10000);
-            urlConnection.setConnectTimeout(15000);
+            urlConnection.setReadTimeout(100000);
+            urlConnection.setConnectTimeout(150000);
             urlConnection.connect();
             inputStream = urlConnection.getInputStream();
             jsonResponse = convertStreamToString(inputStream);
