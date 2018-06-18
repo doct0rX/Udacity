@@ -7,3 +7,4 @@ Lessons Following Up.
     - Earthquake App
     - Soonami App
     - Pokemon App
+    - Did You Feel It? App
