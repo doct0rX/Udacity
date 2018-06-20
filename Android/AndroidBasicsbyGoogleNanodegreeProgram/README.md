@@ -146,6 +146,11 @@ projects
         + [Checked and unchecked exceptions _**Stack overflow**_](https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch)
     * [Basic Network Diagram](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/ABND%20Part%205%20L2%20Diagrams.pdf)
 
+
+    * > Threads & Parallelism:
+        + [Processes and Threads article](https://developer.android.com/guide/components/processes-and-threads?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+        + [developer guide ](https://developer.android.com/training/articles/perf-anr?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) on the topic of keeping your app responsive.
+
 -----------
 
 
