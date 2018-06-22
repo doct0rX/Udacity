@@ -151,7 +151,7 @@ projects
         + [Processes and Threads article](https://developer.android.com/guide/components/processes-and-threads?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [developer guide ](https://developer.android.com/training/articles/perf-anr?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) on the topic of keeping your app responsive.
     * AsyncTask:
-        + Highly Recommended &rarr; Android Performance Patterns [video on threading](https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) by Google Developer Advocate Colt McAnlis.
+        + Highly Recommended &rarr; Android Performance Patterns [video on threading](https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) by Google Developer Advocate Colt McAnlis. ```I Watched the full Playlist 🦁```
         + Some concept of AsyncTasks: [read this article](http://programmerguru.com/android-tutorial/what-is-asynctask-in-android/) or to watch these videos on [Java Generics](https://www.youtube.com/watch?v=rOBtgaXaba0) and [Inner Classes](https://www.youtube.com/watch?v=DZWlO1jCVas)
 
 -----------
