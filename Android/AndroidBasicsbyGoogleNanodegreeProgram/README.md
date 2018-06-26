@@ -153,6 +153,7 @@ projects
     * AsyncTask:
         + Highly Recommended &rarr; Android Performance Patterns [video on threading](https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) by Google Developer Advocate Colt McAnlis. ```I Watched the full Playlist 🦁```
         + Some concept of AsyncTasks: [read this article](http://programmerguru.com/android-tutorial/what-is-asynctask-in-android/) or to watch these videos on [Java Generics](https://www.youtube.com/watch?v=rOBtgaXaba0) and [Inner Classes](https://www.youtube.com/watch?v=DZWlO1jCVas)
+        + [AsyncTask Documentation](https://developer.android.com/reference/android/os/AsyncTask)
 
 -----------
 
@@ -176,6 +177,8 @@ https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-2
 [Create a Splash Screen on Android : the Right Way !](https://medium.com/@ssaurel/create-a-splash-screen-on-android-the-right-way-93d6fb444857)
 
 -----------
+
+> Design tip: Ideally, the content in your app loads immediately. If not, try to allow the user to interact with other parts of the app so they’re not sitting idle and watching a progress bar. If there isn’t anything else meaningful in your app for the user to be doing, the [Material Design spec](https://material.io/design/#progress-activity-types-of-indicators?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) offers guidelines on how to show progress for content that takes a long time to load.
 
 #### OnClickListener vs onClick
 
