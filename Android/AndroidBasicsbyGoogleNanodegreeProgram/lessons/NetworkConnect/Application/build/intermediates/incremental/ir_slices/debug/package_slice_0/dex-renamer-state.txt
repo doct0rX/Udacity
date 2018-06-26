@@ -1,0 +1,4 @@
+#Tue Jun 26 20:01:32 EET 2018
+base.0=/Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

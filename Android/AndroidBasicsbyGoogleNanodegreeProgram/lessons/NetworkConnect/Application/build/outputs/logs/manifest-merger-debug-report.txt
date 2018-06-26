@@ -1,0 +1,116 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:20:1-47:12
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:20:1-47:12
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:20:1-47:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e200250afdeda839c19f3ba9f1575de0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/aab62f190c1e20830c11d8054565fc95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a89c4b85db94ef5c50fe718c6539ebce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/df63bdef03ed8145da892d56affbaca7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8e49e96a8e95e28d9eeb97f968aade09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f7eb87f9a5899cec8268331095be9bad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa09867ade5b9c7fa1c8ffd33dad32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/762530a96dc8e1dc7f28182bb24bf6dd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/39b3e9309d04ac5408950b3bdea6e716/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/721bca8c63d129a4bd28b2e3c0927912/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2fba9c54c8bf27c81d9f5f7e65c562d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f0639f135929071566123892f68421b1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa3be3075ff0ece3ca8b14862a0c4091/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/671b7b888874608f70e16b2c4a8d0e5f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aabae9d50af7b271d46c22cf8fc432b6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:20:1-47:12
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:20:1-47:12
+	package
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:22:5-49
+	android:versionName
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:24:5-30
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:21:5-63
+	android:versionCode
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:23:5-28
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:27:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:28:22-76
+application
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:30:5-46:19
+	android:label
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:33:9-44
+	android:networkSecurityConfig
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:35:9-69
+activity#com.example.android.networkconnect.MainActivity
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:36:9-45:20
+	android:label
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:38:13-45
+	android:uiOptions
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:39:13-57
+	android:name
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:37:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e200250afdeda839c19f3ba9f1575de0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e200250afdeda839c19f3ba9f1575de0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/aab62f190c1e20830c11d8054565fc95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/aab62f190c1e20830c11d8054565fc95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a89c4b85db94ef5c50fe718c6539ebce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a89c4b85db94ef5c50fe718c6539ebce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/df63bdef03ed8145da892d56affbaca7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/df63bdef03ed8145da892d56affbaca7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8e49e96a8e95e28d9eeb97f968aade09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8e49e96a8e95e28d9eeb97f968aade09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f7eb87f9a5899cec8268331095be9bad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f7eb87f9a5899cec8268331095be9bad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa09867ade5b9c7fa1c8ffd33dad32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa09867ade5b9c7fa1c8ffd33dad32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/762530a96dc8e1dc7f28182bb24bf6dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/762530a96dc8e1dc7f28182bb24bf6dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/39b3e9309d04ac5408950b3bdea6e716/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/39b3e9309d04ac5408950b3bdea6e716/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/721bca8c63d129a4bd28b2e3c0927912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/721bca8c63d129a4bd28b2e3c0927912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2fba9c54c8bf27c81d9f5f7e65c562d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2fba9c54c8bf27c81d9f5f7e65c562d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f0639f135929071566123892f68421b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f0639f135929071566123892f68421b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa3be3075ff0ece3ca8b14862a0c4091/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa3be3075ff0ece3ca8b14862a0c4091/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/671b7b888874608f70e16b2c4a8d0e5f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/671b7b888874608f70e16b2c4a8d0e5f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aabae9d50af7b271d46c22cf8fc432b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/doct0rX/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aabae9d50af7b271d46c22cf8fc432b6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/doct0rX/Desktop/projects/Udacity/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/NetworkConnect/Application/src/main/AndroidManifest.xml
