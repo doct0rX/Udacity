@@ -158,6 +158,10 @@ projects
     * List:
         + In all cases, the best practice is to use List whenever you need a list object (whether ArrayList or LinkedList), so you can keep your code flexible.
         + To learn more about this, please read the documentation for the List interface, and check out these great discussions on StackOverflow on [when to use List](http://stackoverflow.com/questions/2279030/type-list-vs-type-arraylist-in-java) and [when you might use ArrayList vs. LinkedList](http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist).
+    * Loaders:
+        + [Loaders Developer Guide](https://developer.android.com/guide/components/loaders?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+        + [LoaderManager](https://developer.android.com/reference/android/app/LoaderManager?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+        + [LoaderCallbacks](https://developer.android.com/reference/android/app/LoaderManager.LoaderCallbacks?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
 -----------
 
