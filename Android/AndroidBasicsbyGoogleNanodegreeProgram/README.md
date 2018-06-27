@@ -155,6 +155,10 @@ projects
         + Some concept of AsyncTasks: [read this article](http://programmerguru.com/android-tutorial/what-is-asynctask-in-android/) or to watch these videos on [Java Generics](https://www.youtube.com/watch?v=rOBtgaXaba0) and [Inner Classes](https://www.youtube.com/watch?v=DZWlO1jCVas)
         + [AsyncTask Documentation](https://developer.android.com/reference/android/os/AsyncTask)
 
+    * List:
+        + In all cases, the best practice is to use List whenever you need a list object (whether ArrayList or LinkedList), so you can keep your code flexible.
+        + To learn more about this, please read the documentation for the List interface, and check out these great discussions on StackOverflow on [when to use List](http://stackoverflow.com/questions/2279030/type-list-vs-type-arraylist-in-java) and [when you might use ArrayList vs. LinkedList](http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist).
+
 -----------
 
 
