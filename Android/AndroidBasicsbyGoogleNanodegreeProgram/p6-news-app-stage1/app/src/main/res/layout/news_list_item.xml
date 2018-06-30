@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_light">
+        <TextView
+            android:id="@+id/section_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:text="Section Name"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/web_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                tools:text="Long placeholder location that should wrap to more than 2 lines of text"/>
+
+            <TextView
+                android:id="@+id/web_publication_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="start"
+                android:gravity="end"
+                android:textSize="@dimen/ten"
+                tools:text="Feb 2, 2015"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
