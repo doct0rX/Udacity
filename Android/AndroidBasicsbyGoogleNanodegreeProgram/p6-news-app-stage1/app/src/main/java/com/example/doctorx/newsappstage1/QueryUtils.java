@@ -22,6 +22,8 @@ import static com.example.doctorx.newsappstage1.NewsActivity.LOG_TAG;
 
 public class QueryUtils {
 
+    private static final int SUCCESS_CODE = 200;
+
     /**
      * Create a private constructor because no one should ever create a {@link QueryUtils} object.
      * This class is only meant to hold static variables and methods, which can be accessed
@@ -93,12 +95,39 @@ public class QueryUtils {
                 // Extract the value for the key called "webTitle"
                 String webTitle = currentNewsItem.getString("webTitle");
 
+                // Extract the Author Name;
+                String author = null;
+                String fName, lName;
+
+                JSONArray tagsArray = currentNewsItem.getJSONArray("tags");
+                if (!tagsArray.isNull(0)) {
+                    JSONObject currentTag = tagsArray.getJSONObject(0);
+
+                    // checking for first
+                    if (!currentTag.isNull("firstName")) {
+                        fName = currentTag.getString("firstName");
+                    } else {
+                        fName = null;
+                    }
+
+                    // Check the last name
+                    if (!currentTag.isNull("lastName")) {
+                        lName = currentTag.getString("lastName");
+                    } else {
+                        lName = null;
+                    }
+
+                    if (fName != null || lName != null) {
+                        author = fName + " " + lName;
+                    }
+                }
+
                 // Extract the value for the key called "webUrl"
                 String url = currentNewsItem.getString("webUrl");
 
                 // Create a new {@link News} object with the sectionID, webPublicationDate,
                 // webTitle and url from the JSON response.
-                News newsItem = new News(sectionName, webPubDate, webTitle, url);
+                News newsItem = new News(sectionName, webPubDate, webTitle,author ,url);
 
                 // Add the new {@link News} to the list of news items.
                 news.add(newsItem);
@@ -106,7 +135,7 @@ public class QueryUtils {
         } catch (JSONException e) {
             // If an error is thrown when executing any of the above statements in the "try" block,
             // catch the exception here, so the app doesn't crash. Print out a log message with the exception.
-            Log.e("com.example.doctorx.newsappstage1.QueryUtils", "extractFeatureFromJson: Problem parsing the news items JSON results", e);
+            Log.e(LOG_TAG, "extractFeatureFromJson: Problem parsing the news items JSON results", e);
         }
         // Return list of news
         return news;
@@ -134,7 +163,7 @@ public class QueryUtils {
 
             // If the request was successful (response code 200),
             // then read the input stream and parse the response.
-            if (urlConnection.getResponseCode() == 200) {
+            if (urlConnection.getResponseCode() == SUCCESS_CODE) {
                 inputStream = urlConnection.getInputStream();
                 jsonResponse = readFromStream(inputStream);
             } else {

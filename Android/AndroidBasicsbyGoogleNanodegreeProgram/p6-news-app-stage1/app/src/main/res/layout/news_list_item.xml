@@ -53,6 +53,18 @@
                 android:gravity="end"
                 android:textSize="@dimen/ten"
                 tools:text="Feb 2, 2015"/>
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="start"
+                android:fontFamily="monospace"
+                android:textColor="@android:color/black"
+                android:gravity="end"
+                tools:text="Mustafa Jamal"/>
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

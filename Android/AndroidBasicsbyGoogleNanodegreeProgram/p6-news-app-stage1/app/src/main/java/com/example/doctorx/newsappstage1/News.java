@@ -11,6 +11,9 @@ public class News {
     /** Date the news item was published */
     private String mDate;
 
+    /** Author First name and Last name */
+    private String mAuthor;
+
     /** Website URL of the earthquake */
     private String mUrl;
 
@@ -21,10 +24,11 @@ public class News {
      * @param webTitle Title for website
      * @param url URL to open in browser
      */
-    public News(String sectionName, String date, String webTitle, String url) {
+    public News(String sectionName, String date, String webTitle,String author, String url) {
         mSectionName = sectionName;
         mDate = date;
         mWebTitle = webTitle;
+        mAuthor = author;
         mUrl = url;
     }
 
@@ -41,6 +45,10 @@ public class News {
 
     public String getNewsData() {
         return mDate;
+    }
+
+    public String getAuthor() {
+        return mAuthor;
     }
 
     public String getUrl() {

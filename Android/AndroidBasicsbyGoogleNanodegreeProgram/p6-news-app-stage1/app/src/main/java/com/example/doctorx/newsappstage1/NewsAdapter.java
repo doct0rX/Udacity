@@ -62,6 +62,16 @@ public class NewsAdapter extends ArrayAdapter<News> {
             dateView.setText(finalDate);
         }
 
+        // Check if the Author is Available to present else, remove it from the list_item
+        TextView authorTextView = convertView.findViewById(R.id.author_name);
+        String author = currentNewsItem.getAuthor();
+        if (author == null) {
+            authorTextView.setVisibility(View.GONE);
+        } else {
+            authorTextView.setVisibility(View.VISIBLE);
+            authorTextView.setText(author);
+        }
+
         return convertView;
     }
 
