@@ -98,9 +98,6 @@ projects
         + Add Android Design Support Library to Your Project
              - Gradle is the tool that Android Studio uses to generate the apk (app file) that goes onto the device. For more info on  configuring the build.gradle file, see this [article](https://developer.android.com/studio/build/build-variants.html?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).  There’s also an advanced [Udacity course]
              (https://eg.udacity.com/course/gradle-for-android-and-java--ud867) on this topic.
-
-
-
     * Notes from Project 5 &rarr; __Tour Project__:
         + [understanding how references work in Android and Java](https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83)
         + Improving App Profermonce by [Making ListView Scrolling Smooth](https://developer.android.com/training/improving-layouts/smooth-scrolling) by ViewHolder.
@@ -108,8 +105,6 @@ projects
             Here I leave you [more information](https://developer.android.com/guide/topics/ui/layout/recyclerview) about this RecyclerView.
         + When you have so many findViewById methods, you can save some time and shorten your code using the Butterknife library. Here I leave you a [link](https://jakewharton.github.io/butterknife/) where you can find more information about this library =)
         + > You have set the minSdkVersion to 22, this way, you only have access to 62,6% of the devices. Setting the minSdkVersion to 15, your app will have better access to the majority of devices in the market.
-
-
 
     > **_Networking:_**
     * [GitHub Code Base for The Earthquake project](https://github.com/udacity/ud843-QuakeReport)
@@ -132,7 +127,6 @@ projects
     * Permission In Android:
         + [Dangerous permissions](https://developer.android.com/guide/topics/permissions/overview?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#normal-dangerous)
         + [Normal permissions](https://developer.android.com/guide/topics/permissions/overview?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#normal-dangerous)
-        
             Other Resources: [Reference documentation for all permissions](https://developer.android.com/reference/android/Manifest.permission?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [GitHub Code Base for The Soonami App project](https://github.com/udacity/ud843_Soonami)
     * [Working with URL in Java](https://docs.oracle.com/javase/tutorial/networking/urls/)
@@ -145,8 +139,6 @@ projects
         + [Specifying the Exceptions Thrown by a Method](https://docs.oracle.com/javase/tutorial/essential/exceptions/declaring.html)
         + [Checked and unchecked exceptions _**Stack overflow**_](https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch)
     * [Basic Network Diagram](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/lessons/ABND%20Part%205%20L2%20Diagrams.pdf)
-
-
     * > Threads & Parallelism:
         + [Processes and Threads article](https://developer.android.com/guide/components/processes-and-threads?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [developer guide ](https://developer.android.com/training/articles/perf-anr?utm_source=udacity&utm_medium=course&utm_campaign=android_basics) on the topic of keeping your app responsive.
@@ -154,27 +146,22 @@ projects
         + Highly Recommended &rarr; Android Performance Patterns [video on threading](https://www.youtube.com/watch?v=qk5F6Bxqhr4&index=1&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) by Google Developer Advocate Colt McAnlis. ```I Watched the full Playlist 🦁```
         + Some concept of AsyncTasks: [read this article](http://programmerguru.com/android-tutorial/what-is-asynctask-in-android/) or to watch these videos on [Java Generics](https://www.youtube.com/watch?v=rOBtgaXaba0) and [Inner Classes](https://www.youtube.com/watch?v=DZWlO1jCVas)
         + [AsyncTask Documentation](https://developer.android.com/reference/android/os/AsyncTask)
-
     * List:
         + In all cases, the best practice is to use List whenever you need a list object (whether ArrayList or LinkedList), so you can keep your code flexible.
         + To learn more about this, please read the documentation for the List interface, and check out these great discussions on StackOverflow on [when to use List](http://stackoverflow.com/questions/2279030/type-list-vs-type-arraylist-in-java) and [when you might use ArrayList vs. LinkedList](http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist).
         + ListView [setEmptyView()](https://developer.android.com/reference/android/widget/AdapterView?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#setEmptyView(android.view.View)) method.
         + Material Design guidelines on [empty states](https://material.io/design/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics).
-
     * Loaders:
         + [Loaders Developer Guide](https://developer.android.com/guide/components/loaders?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [LoaderManager](https://developer.android.com/reference/android/app/LoaderManager?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [LoaderCallbacks](https://developer.android.com/reference/android/app/LoaderManager.LoaderCallbacks?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
-
     * Checking Network Connectivity:
         + [Check Network Connection (remember to add the “Access Network State” permission)](https://developer.android.com/training/basics/network-ops/connecting?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [Detecting & Monitoring Network Status](https://developer.android.com/training/monitoring-device-state/connectivity-monitoring?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [How to force stop an app from the Recents list](https://www.gottabemobile.com/how-to-close-apps-on-the-nexus-6p/)
-
     * SharedPreferences:
         + Android provides a [SharedPreferences class](https://developer.android.com/reference/android/content/SharedPreferences) to make getting and setting preferences super straight forward. SharedPreferences handles all the details of reading and writing preference data to the persistent storage on the device.
         + [Preference Fragment](https://developer.android.com/reference/android/support/v7/preference/PreferenceFragmentCompat)
-
     * Depends on my *Project Review*:
         + Using [BufferKnife](https://www.androidhive.info/2017/10/android-working-with-butterknife-viewbinding-library/) for avoid using findViewById();
 
