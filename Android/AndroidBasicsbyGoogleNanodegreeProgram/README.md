@@ -166,10 +166,13 @@ projects
         + [LoaderManager](https://developer.android.com/reference/android/app/LoaderManager?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [LoaderCallbacks](https://developer.android.com/reference/android/app/LoaderManager.LoaderCallbacks?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
-    * Checking Network Connectivity
+    * Checking Network Connectivity:
         + [Check Network Connection (remember to add the “Access Network State” permission)](https://developer.android.com/training/basics/network-ops/connecting?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [Detecting & Monitoring Network Status](https://developer.android.com/training/monitoring-device-state/connectivity-monitoring?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
         + [How to force stop an app from the Recents list](https://www.gottabemobile.com/how-to-close-apps-on-the-nexus-6p/)
+
+    * SharedPreferences:
+        + Android provides a [SharedPreferences class](https://developer.android.com/reference/android/content/SharedPreferences) to make getting and setting preferences super straight forward. SharedPreferences handles all the details of reading and writing preference data to the persistent storage on the device.
 
 -----------
 
