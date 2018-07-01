@@ -173,6 +173,10 @@ projects
 
     * SharedPreferences:
         + Android provides a [SharedPreferences class](https://developer.android.com/reference/android/content/SharedPreferences) to make getting and setting preferences super straight forward. SharedPreferences handles all the details of reading and writing preference data to the persistent storage on the device.
+        + [Preference Fragment](https://developer.android.com/reference/android/support/v7/preference/PreferenceFragmentCompat)
+
+    * Depends on my *Project Review*:
+        + Using [BufferKnife](https://www.androidhive.info/2017/10/android-working-with-butterknife-viewbinding-library/) for avoid using findViewById();
 
 -----------
 
