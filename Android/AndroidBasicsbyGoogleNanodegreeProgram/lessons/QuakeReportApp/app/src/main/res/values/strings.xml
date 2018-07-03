@@ -25,4 +25,8 @@
 
     <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
     <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Preference/Setting Screen -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Earthquake Settings</string>
 </resources>
