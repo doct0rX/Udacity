@@ -161,7 +161,9 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
     }
 
 
-    // For Menu;
+    /**
+     * Next two methods for displaying menu on the EarthquakeActivity bar
+     * */
     @Override
     // This method initialize the contents of the Activity's options menu.
     public boolean onCreateOptionsMenu(Menu menu) {
