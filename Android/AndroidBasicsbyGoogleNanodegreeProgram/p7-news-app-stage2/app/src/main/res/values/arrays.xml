@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_section_labels">
+        <item>@string/settings_football_label</item>
+        <item>@string/settings_business_label</item>
+        <item>@string/settings_technology_label</item>
+        <item>@string/settings_science_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_football_value</item>
+        <item>@string/settings_business_value</item>
+        <item>@string/settings_technology_value</item>
+        <item>@string/settings_science_value</item>
+    </string-array>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_newest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_newest_value</item>
+    </string-array>
+</resources>
