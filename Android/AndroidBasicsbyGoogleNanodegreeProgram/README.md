@@ -164,6 +164,11 @@ projects
         + [Preference Fragment](https://developer.android.com/reference/android/support/v7/preference/PreferenceFragmentCompat)
     * Depends on my *Project Review*:
         + Using [BufferKnife](https://www.androidhive.info/2017/10/android-working-with-butterknife-viewbinding-library/) for avoid using findViewById();
+    * Additional Resources:
+        + [**Timber**](https://github.com/JakeWharton/timber) Awesome job logging the important states of the app. It helps easily debug the app. For advanced logging, checkout Timber library!!
+        + Removing sensitive data from a repository:
+            - https://help.github.com/articles/removing-sensitive-data-from-a-repository/
+            - https://medium.com/@rhoprhh/removing-keys-passwords-and-other-sensitive-data-from-old-github-commits-on-osx-2fb903604a56
 
 -----------
 
