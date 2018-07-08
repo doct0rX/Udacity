@@ -16,7 +16,7 @@ projects
 
 6) [News App, Stage 1](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p6-news-app-stage1)
 
-7) [News App, Stage 2]()
+7) [News App, Stage 2](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p7-news-app-stage2)
 
 -----------
 
