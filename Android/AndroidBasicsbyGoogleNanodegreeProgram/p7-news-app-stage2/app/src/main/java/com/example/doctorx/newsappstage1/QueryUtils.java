@@ -85,18 +85,24 @@ public class QueryUtils {
                 // For a given news item, extract the JSONObject associated with the key
 
                 // Extract the value for the key called "sectionName"
-                String sectionName = currentNewsItem.getString("sectionName");
+                String sectionName = currentNewsItem.optString("sectionName");
 
                 // Extract the value for the key called "webPublicationDate"
-                String webPubDate = currentNewsItem.getString("webPublicationDate");
+                String webPubDate = currentNewsItem.optString("webPublicationDate");
 
                 // Extract the value for the key called "webTitle"
-                String webTitle = currentNewsItem.getString("webTitle");
+                String webTitle = currentNewsItem.optString("webTitle");
 
-                String authorFullName = currentNewsItem.getJSONObject("fields").getString("byline");
+                String authorFullName;
+                if (currentNewsItem.has("fields")) {
+                    authorFullName = currentNewsItem.getJSONObject("fields").optString("byline");
+                } else {
+                    authorFullName = null;
+                }
+
 
                 // Extract the value for the key called "webUrl"
-                String url = currentNewsItem.getString("webUrl");
+                String url = currentNewsItem.optString("webUrl");
 
                 // Create a new {@link News} object with the sectionID, webPublicationDate,
                 // webTitle and url from the JSON response.
