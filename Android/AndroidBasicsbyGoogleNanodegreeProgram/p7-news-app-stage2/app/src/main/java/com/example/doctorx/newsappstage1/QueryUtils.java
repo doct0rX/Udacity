@@ -83,8 +83,6 @@ public class QueryUtils {
                 JSONObject currentNewsItem = newsArray.getJSONObject(i);
 
                 // For a given news item, extract the JSONObject associated with the key
-                // called "results", which represents a list of all results for that news item.
-                // JSONObject results = currentNewsItem.getJSONObject("results");
 
                 // Extract the value for the key called "sectionName"
                 String sectionName = currentNewsItem.getString("sectionName");
@@ -95,39 +93,14 @@ public class QueryUtils {
                 // Extract the value for the key called "webTitle"
                 String webTitle = currentNewsItem.getString("webTitle");
 
-                // Extract the Author Name;
-                String author = null;
-                String fName, lName;
-
-                JSONArray tagsArray = currentNewsItem.getJSONArray("tags");
-                if (!tagsArray.isNull(0)) {
-                    JSONObject currentTag = tagsArray.getJSONObject(0);
-
-                    // checking for first
-                    if (!currentTag.isNull("firstName")) {
-                        fName = currentTag.getString("firstName");
-                    } else {
-                        fName = null;
-                    }
-
-                    // Check the last name
-                    if (!currentTag.isNull("lastName")) {
-                        lName = currentTag.getString("lastName");
-                    } else {
-                        lName = null;
-                    }
-
-                    if (fName != null || lName != null) {
-                        author = fName + " " + lName;
-                    }
-                }
+                String authorFullName = currentNewsItem.getJSONObject("fields").getString("byline");
 
                 // Extract the value for the key called "webUrl"
                 String url = currentNewsItem.getString("webUrl");
 
                 // Create a new {@link News} object with the sectionID, webPublicationDate,
                 // webTitle and url from the JSON response.
-                News newsItem = new News(sectionName, webPubDate, webTitle,author ,url);
+                News newsItem = new News(sectionName, webPubDate, webTitle,authorFullName ,url);
 
                 // Add the new {@link News} to the list of news items.
                 news.add(newsItem);
