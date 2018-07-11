@@ -18,6 +18,10 @@ projects
 
 7) [News App, Stage 2](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p7-news-app-stage2)
 
+8) [Inventory App, Stage 1]()
+
+9) [Inventory App, Stage 2]()
+
 -----------
 
 ### Added By doct0rX 👾 Throughout The Nanodegree:
@@ -170,8 +174,11 @@ projects
             - https://help.github.com/articles/removing-sensitive-data-from-a-repository/
             - https://medium.com/@rhoprhh/removing-keys-passwords-and-other-sensitive-data-from-old-github-commits-on-osx-2fb903604a56
 
------------
+    > **_Data Storage:_**
+    * [Difference between computer memory and hard drive storage](https://soundsupport.biz/2012/05/06/whats-the-difference-between-computer-memory-ram-and-hard-drive-storage/)
+    * [Storage Options in Android](https://developer.android.com/guide/topics/data/data-storage?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
+-----------
 
 Extractive Weekly Check In Resources:
 --------

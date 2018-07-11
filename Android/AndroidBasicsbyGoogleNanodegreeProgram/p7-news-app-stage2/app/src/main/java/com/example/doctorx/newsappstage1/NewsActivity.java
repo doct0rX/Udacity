@@ -130,7 +130,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
         uriBuilder.appendQueryParameter("section", categoryName);
         uriBuilder.appendQueryParameter("order-by", orderBy);
         uriBuilder.appendQueryParameter("from-date", "2018-01-01");
-        uriBuilder.appendQueryParameter("api-key", "API_KEY_BE_HERE");
+        uriBuilder.appendQueryParameter("api-key", "44053436-2b60-4f53-888b-561a139b173c");
 
         // Create a new loader for the given URL
         return new NewsLoader(this, uriBuilder.toString());
