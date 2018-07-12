@@ -196,7 +196,11 @@ https://medium.com/@vatsalbajpai/top-10-most-useful-plugins-for-android-studio-2
 
 > Jun 1, 2018
 
-[Create a Splash Screen on Android : the Right Way !](https://medium.com/@ssaurel/create-a-splash-screen-on-android-the-right-way-93d6fb444857)
+[Create a Splash Screen on Android : the Right Way!](https://medium.com/@ssaurel/create-a-splash-screen-on-android-the-right-way-93d6fb444857)
+
+> July 12, 2018
+
+[Retrofit](http://square.github.io/retrofit/) for making HTTP REST API connections [GSON](https://github.com/google/gson) by Google to make it easier for you to parse data to and from JSON [Picasso](http://square.github.io/picasso/) for Image loading and caching.
 
 -----------
 
