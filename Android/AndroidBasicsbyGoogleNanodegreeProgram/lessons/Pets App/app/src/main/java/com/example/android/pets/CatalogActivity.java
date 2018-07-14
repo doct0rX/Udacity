@@ -49,7 +49,8 @@ public class CatalogActivity extends AppCompatActivity {
             }
         });
 
-        displayDatabaseInfo();
+//        displayDatabaseInfo();
+        new PetDbHelper(this).getReadableDatabase();
     }
 
     @Override
