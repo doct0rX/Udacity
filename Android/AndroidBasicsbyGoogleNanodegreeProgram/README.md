@@ -178,6 +178,8 @@ projects
     * [Difference between computer memory and hard drive storage](https://soundsupport.biz/2012/05/06/whats-the-difference-between-computer-memory-ram-and-hard-drive-storage/)
     * [Storage Options in Android](https://developer.android.com/guide/topics/data/data-storage?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [Why is a database always represented with a cylinder?](https://stackoverflow.com/questions/2822650/why-is-a-database-always-represented-with-a-cylinder)
+    * [Tutorial on how to read from the database](https://developer.android.com/training/data-storage/room/#ReadDbRow)
+    * [SQLite Query method documentation](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase#query(java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String,%20java.lang.String))
 
 -----------
 
