@@ -10,16 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".ProductMain"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EditorActivity" />
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/editor_new_product"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName=".ProductMain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductMain" />
+        </activity>
     </application>
 
 </manifest>
