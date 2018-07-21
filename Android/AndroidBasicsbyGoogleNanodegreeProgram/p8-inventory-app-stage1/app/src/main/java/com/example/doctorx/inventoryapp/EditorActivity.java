@@ -2,11 +2,13 @@ package com.example.doctorx.inventoryapp;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
+import android.opengl.Visibility;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -46,12 +48,27 @@ public class EditorActivity extends AppCompatActivity {
 
         String nameString = mNameEditText.getText().toString().trim();
         String priceString = mPriceEditText.getText().toString().trim();
-        int price = Integer.parseInt(priceString);
+        int price = 0;
+        if (!priceString.isEmpty()) {
+            price = Integer.parseInt(priceString);
+        } else {
+            Toast.makeText(this, "Error saving the Price with dummy data: 0", Toast.LENGTH_SHORT).show();
+        }
         String quantityString = mQuantityEditText.getText().toString().trim();
-        int quantity = Integer.parseInt(quantityString);
+        int quantity = 0;
+        if (!quantityString.isEmpty()) {
+            quantity = Integer.parseInt(quantityString);
+        } else {
+            Toast.makeText(this, "Error saving the Quantity with dummy data: 0", Toast.LENGTH_SHORT).show();
+        }
         String supplierString = mSupplierEditText.getText().toString().trim();
         String phoneString = mPhoneEditText.getText().toString().trim();
-        int phone = Integer.parseInt(phoneString);
+        int phone = 0;
+        if (!phoneString.isEmpty()) {
+            phone = Integer.parseInt(phoneString);
+        } else {
+            Toast.makeText(this, "Error saving the Phone Number with dummy data: 0", Toast.LENGTH_SHORT).show();
+        }
 
         // Create database helper
         ProductDbHelper mDbHelper = new ProductDbHelper(EditorActivity.this);

@@ -120,12 +120,12 @@ public class ProductMain extends AppCompatActivity {
         // and Example's product attributes are the values.
         ContentValues values = new ContentValues();
         values.put(ProductEntry.COLUMN_PRODUCT_NAME, "Headphones");
-        values.put(ProductEntry.COLUMN_PRODUCT_PRICE, 20);
+        values.put(ProductEntry.COLUMN_PRODUCT_PRICE, 120);
         values.put(ProductEntry.COLUMN_PRODUCT_QUANTITY, 5);
-        values.put(ProductEntry.COLUMN_PRODUCT_SUPPLIER, "Sony");
+        values.put(ProductEntry.COLUMN_PRODUCT_SUPPLIER, "Sol Republic");
         values.put(ProductEntry.COLUMN_PRODUCT_PHONE, 555222111);
 
-        long newRowId = db.insert(ProductEntry.TABLE_NAME, null, values);
+        db.insert(ProductEntry.TABLE_NAME, null, values);
     }
 
     @Override
