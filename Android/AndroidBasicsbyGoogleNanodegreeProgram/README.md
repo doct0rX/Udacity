@@ -181,6 +181,7 @@ projects
     * [Tutorial on how to read from the database](https://developer.android.com/training/data-storage/room/#ReadDbRow)
     * [SQLite Query method documentation](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase#query(java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String,%20java.lang.String))
     * [ContentProvider Documentation](https://developer.android.com/reference/android/content/ContentProvider?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+    * [ContentValues Documentation](https://developer.android.com/reference/android/content/ContentValues?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
 
 -----------
 
