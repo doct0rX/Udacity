@@ -113,6 +113,7 @@ public class PetProvider extends ContentProvider {
         final int match = sUriMatcher.match(uri);
         switch (match) {
             case PETS:
+                assert values != null;
                 return insertPet(uri, values);
             default:
                 throw new IllegalArgumentException("Insertion is not supported for " + uri);
@@ -124,7 +125,22 @@ public class PetProvider extends ContentProvider {
      */
     @Override
     public int delete(@NonNull Uri uri, @Nullable String selection, @Nullable String[] selectionArgs) {
-        return 0;
+        // Get writeable database
+        SQLiteDatabase database = mPetDbHelper.getWritableDatabase();
+
+        final int match = sUriMatcher.match(uri);
+        switch (match) {
+            case PETS:
+                // Delete all rows that match the selection and selection args
+                return database.delete(PetEntry.TABLE_NAME, selection, selectionArgs);
+            case PET_ID:
+                // Delete a single row given by the ID in the URI
+                selection = PetEntry._ID + "=?";
+                selectionArgs = new String[] { String.valueOf(ContentUris.parseId(uri)) };
+                return database.delete(PetEntry.TABLE_NAME, selection, selectionArgs);
+            default:
+                throw new IllegalArgumentException("Deletion is not supported for " + uri);
+        }
     }
 
     /**
