@@ -182,6 +182,9 @@ projects
     * [SQLite Query method documentation](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase#query(java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String[],%20java.lang.String,%20java.lang.String,%20java.lang.String))
     * [ContentProvider Documentation](https://developer.android.com/reference/android/content/ContentProvider?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
     * [ContentValues Documentation](https://developer.android.com/reference/android/content/ContentValues?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+    * ContentProvider getType() Method
+        - [Explanation of MIME type _Stack Overflow](https://stackoverflow.com/questions/7157129/what-is-the-mimetype-attribute-in-data-used-for)
+        - [Media type on Wikipedia](https://en.wikipedia.org/wiki/Media_type)
 
 -----------
 
