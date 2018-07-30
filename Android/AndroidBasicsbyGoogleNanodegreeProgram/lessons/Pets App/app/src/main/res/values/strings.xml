@@ -75,4 +75,13 @@
     <string name="empty_view_subtitle_text">Get started by adding a pet</string>
     <string name="editor_update_pet_failed">Error: Updating the Pet Faild</string>
     <string name="editor_update_pet_successful">Success Updating the Pet</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
 </resources>
