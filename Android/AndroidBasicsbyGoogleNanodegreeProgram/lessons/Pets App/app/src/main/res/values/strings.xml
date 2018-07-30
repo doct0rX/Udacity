@@ -73,4 +73,6 @@
 
     <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
     <string name="empty_view_subtitle_text">Get started by adding a pet</string>
+    <string name="editor_update_pet_failed">Error: Updating the Pet Faild</string>
+    <string name="editor_update_pet_successful">Success Updating the Pet</string>
 </resources>

@@ -67,7 +67,10 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
     private Uri mCurrentPetUri;
 
     /** Initializing the loader */
+    // ToDo
 
+    /** Defines an object to contain the updated values */
+    ContentValues mUpdateValues = new ContentValues();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,14 +92,34 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             setTitle(getString(R.string.editor_activity_title_existing_pet));
         }
 
+        int rowsAffected = 0;
 
-        // Find all relevant views that we will need to read user input from
-        mNameEditText = findViewById(R.id.edit_pet_name);
-        mBreedEditText = findViewById(R.id.edit_pet_breed);
-        mWeightEditText = findViewById(R.id.edit_pet_weight);
-        mGenderSpinner = findViewById(R.id.spinner_gender);
+        if (mCurrentPetUri == null) {
+            // Find all relevant views that we will need to read user input from
+            mNameEditText = findViewById(R.id.edit_pet_name);
+            mBreedEditText = findViewById(R.id.edit_pet_breed);
+            mWeightEditText = findViewById(R.id.edit_pet_weight);
+            mGenderSpinner = findViewById(R.id.spinner_gender);
 
-        setupSpinner();
+            setupSpinner();
+
+        } else {
+            // Otherwise this is an EXISTING pet, so update the pet with content URI: mCurrentPetUri
+            // and pass in the new ContentValues. Pass in null for the selection and selection args
+            // because mCurrentPetUri will already identify the correct row in the database that
+            // we want to modify.
+            rowsAffected = getContentResolver().update(mCurrentPetUri, mUpdateValues, null, null);
+        }
+
+        if (rowsAffected == 0) {
+            // If no rows were affected, then there was an error with the update.
+            Toast.makeText(this, getString(R.string.editor_update_pet_failed),
+                    Toast.LENGTH_SHORT).show();
+        } else {
+            // Otherwise, the update was successful and we can display a toast.
+            Toast.makeText(this, getString(R.string.editor_update_pet_successful),
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
     /**
