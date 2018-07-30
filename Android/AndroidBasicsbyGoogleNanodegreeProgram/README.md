@@ -185,15 +185,12 @@ projects
     * [ContentProvider](https://developer.android.com/guide/topics/providers/contacts-provider) getType() Method
         - [Explanation of MIME type _Stack Overflow](https://stackoverflow.com/questions/7157129/what-is-the-mimetype-attribute-in-data-used-for)
         - [Media type on Wikipedia](https://en.wikipedia.org/wiki/Media_type)
+     * To add behavior to when the [back button is clicked, see this StackOverflow post](https://stackoverflow.com/questions/18337536/android-overriding-onbackpressed). To add behavior when the [“Up” button is clicked, see this article](https://developer.android.com/training/implementing-navigation/ancestral?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#NavigateUp). You’ll need to add code to the case when the android.R.id.home button is clicked.
 
-``` Note
->>> Advanced note for CursorAdapter class:
-Are you wondering how the ArrayAdapter’s getView() method relates to the CursorAdapter’s newView() and bindView() methods?
-
+ >Note
+>>> Advanced note for CursorAdapter class: Are you wondering how the ArrayAdapter’s getView() method relates to the CursorAdapter’s newView() and bindView() methods?
 Check out the Android source code for the [CursorAdapter class](https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/widget/CursorAdapter.java#274). The getView() method still exists, but it actually calls newView() and bindView() based on whether there is a list item view that can be recycled or not. (If convertView is null, we need to create a brand new list item. If convertView is not null, we can recycle the old list item view.)
-
-Hence, as a developer, we don’t need to override the CursorAdapter getView() method. We can just override the newView() and bindView() methods, and the adapter will take care of everything from there! 
-```
+Hence, as a developer, we don’t need to override the CursorAdapter getView() method. We can just override the newView() and bindView() methods, and the adapter will take care of everything from there!
 
 -----------
 
