@@ -16,6 +16,7 @@
 package com.example.android.pets;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -59,6 +60,23 @@ public class EditorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
+
+        // TODO:
+        // Examine the intent that was used to lunch this activity.
+        // in order to figure out if we're creating a new pet or editing an existing one.
+        Intent intent = getIntent();
+        Uri currentPetUri = intent.getData();
+
+        // If we have EditorActivity was opened from ListView item, then we will
+        // have uri of the pet so change the app bar say "Edit Pet"
+        // otherwise if there's a new pet, uri is null so change the app par to say "Add a Pet"
+        if (currentPetUri == null) {
+            // This is a new pet so change the app bar to say "Add a Pet"
+            setTitle(getString(R.string.editor_activity_title_new_pet));
+        } else {
+            setTitle(getString(R.string.editor_activity_title_existing_pet));
+        }
+
 
         // Find all relevant views that we will need to read user input from
         mNameEditText = findViewById(R.id.edit_pet_name);
