@@ -18,9 +18,9 @@ projects
 
 7) [News App, Stage 2](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p7-news-app-stage2)
 
-8) [Inventory App, Stage 1](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p8-inventory-app-stage1)
+8) [Inventory App, Stage 1](./p8-inventory-app-stage1)
 
-9) [Inventory App, Stage 2]()
+9) [Inventory App, Stage 2](./p8-inventory-app-stage2)
 
 -----------
 
