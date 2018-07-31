@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all products data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Product Name [CHAR LIMIT=30] -->
+    <string name="category_name">Product Name</string>
+
+    <!-- Product price [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Product quantity [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Supplier name [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier Name</string>
+
+    <!-- Supplier phone number [CHAR LIMIT=30] -->
+    <string name="category_phone">Supplier Phone Number</string>
+
+    <string name="hint_product_name">Name</string>
+    <string name="hint_product_price">Price</string>
+    <string name="hint_product_quantity">Quantity</string>
+    <string name="hint_product_supplier">Supplier</string>
+    <string name="hint_product_phone">Phone</string>
+    <string name="editor_new_product">Add product</string>
+
+</resources>

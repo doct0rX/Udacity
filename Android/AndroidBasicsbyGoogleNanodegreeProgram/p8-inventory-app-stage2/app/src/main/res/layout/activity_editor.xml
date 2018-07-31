@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/seventeen"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/EditorFiledDesctription"
+            android:text="@string/category_name" />
+
+        <TextView
+            style="@style/EditorFiledDesctription"
+            android:text="@string/category_price" />
+
+        <TextView
+            style="@style/EditorFiledDesctription"
+            android:text="@string/category_quantity" />
+
+        <TextView
+            style="@style/EditorFiledDesctription"
+            android:text="@string/category_supplier" />
+
+        <TextView
+            style="@style/EditorFiledDesctription"
+            android:text="@string/category_phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingLeft="6dp">
+
+        <EditText
+            android:id="@+id/edit_product_name"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_product_name"
+            android:inputType="textCapWords"
+            tools:text="Name" />
+
+        <EditText
+            android:id="@+id/edit_product_price"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_product_price"
+            android:inputType="number"
+            android:maxLength="6"/>
+
+        <EditText
+            android:id="@+id/edit_product_quantity"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_product_quantity"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <EditText
+            android:id="@+id/edit_product_supplier"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_product_supplier"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/edit_product_phone"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_product_phone"
+            android:inputType="phone"
+            android:maxLength="9"/>
+
+    </LinearLayout>
+</LinearLayout>
