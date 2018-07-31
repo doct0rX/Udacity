@@ -187,6 +187,7 @@ projects
         - [Media type on Wikipedia](https://en.wikipedia.org/wiki/Media_type)
      * To add behavior to when the [back button is clicked, see this StackOverflow post](https://stackoverflow.com/questions/18337536/android-overriding-onbackpressed). To add behavior when the [“Up” button is clicked, see this article](https://developer.android.com/training/implementing-navigation/ancestral?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#NavigateUp). You’ll need to add code to the case when the android.R.id.home button is clicked.
      * [How to create an AlertDialog.](https://developer.android.com/guide/topics/ui/dialogs?utm_source=udacity&utm_medium=course&utm_campaign=android_basics#AlertDialog)
+     * [Android - Correct use of invalidateOptionsMenu()](https://stackoverflow.com/questions/27984041/android-correct-use-of-invalidateoptionsmenu)
 
  >Note
 >>> Advanced note for CursorAdapter class: Are you wondering how the ArrayAdapter’s getView() method relates to the CursorAdapter’s newView() and bindView() methods?
