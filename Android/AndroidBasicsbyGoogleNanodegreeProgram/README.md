@@ -4,23 +4,23 @@ Android Basics by Google Nanodegree Program
 projects
 --------
 
-1) [Business Card App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p1-business-card-app)
+1) [Business Card App](./p1-business-card-app)
 
-2) [Court Counter](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p2-court-counter)
+2) [Court Counter](./p2-court-counter)
 
-3) [Quiz App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p3-quiz-app)
+3) [Quiz App](./p3-quiz-app)
 
-4) [Musical Structure](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p4-musical-structure)
+4) [Musical Structure](./p4-musical-structure)
 
-5) [Tour Guide App](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p5-tour-guide-app)
+5) [Tour Guide App](./p5-tour-guide-app)
 
-6) [News App, Stage 1](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p6-news-app-stage1)
+6) [News App, Stage 1](./p6-news-app-stage1)
 
-7) [News App, Stage 2](https://github.com/doct0rX/Udacity/tree/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p7-news-app-stage2)
+7) [News App, Stage 2](./p7-news-app-stage2)
 
 8) [Inventory App, Stage 1](./p8-inventory-app-stage1)
 
-9) [Inventory App, Stage 2](./p8-inventory-app-stage2)
+9) [Inventory App, Stage 2](./p9-inventory-app-stage2)
 
 -----------
 
