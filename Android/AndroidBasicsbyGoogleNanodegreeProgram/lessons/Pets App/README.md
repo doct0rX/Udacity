@@ -48,5 +48,6 @@ the License.
 
 Screenshot
 ----------
+
 ![screen, mainscreen](./screens/Screenshot_1533064341.png)
 ![editorScreen](./screens/Screenshot_1533065185.png)
