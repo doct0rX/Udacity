@@ -98,4 +98,7 @@
 
     <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
     <string name="cancel">Cancel</string>
+
+    <!-- Label for the pet's breed if the breed is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_breed">Unknown breed</string>
 </resources>
