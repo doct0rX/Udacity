@@ -1,4 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="seventeen">17dp</dimen>
+    <dimen name="padding_17dp">17dp</dimen>
+    <dimen name="padding_editor_5dp">5</dimen>
+    <dimen name="width_editor_0dp">0</dimen>
 </resources>

@@ -31,8 +31,15 @@
     <string name="hint_product_name">Name</string>
     <string name="hint_product_price">Price</string>
     <string name="hint_product_quantity">Quantity</string>
-    <string name="hint_product_supplier">Supplier</string>
+    <string name="hint_product_supplier">Supplier Name</string>
     <string name="hint_product_phone">Phone</string>
     <string name="editor_new_product">Add product</string>
+    <string name="sale_button">sale</string>
+    <string name="in_stock">In Stock</string>
+    <string name="hint_book_name">How To Solve It</string>
+    <string name="category_book">Book</string>
+    <string name="category_supplier_phone">Supplier Phone</string>
+    <string name="empty_view_title_text">There\'s No Books, Start Adding :)</string>
+    <string name="no_stock">No Stock Left</string>
 
 </resources>

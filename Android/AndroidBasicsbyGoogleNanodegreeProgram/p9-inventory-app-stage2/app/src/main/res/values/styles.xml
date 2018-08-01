@@ -21,4 +21,13 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
+
+    <style name="CatalogStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/padding_17dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
 </resources>

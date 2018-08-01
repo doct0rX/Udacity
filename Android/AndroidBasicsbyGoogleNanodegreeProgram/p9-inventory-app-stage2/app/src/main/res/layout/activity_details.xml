@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_17dp"
+    tools:context=".DetailedViewActivity">
+
+
+    <!-- Book name category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CatalogStyle"
+            android:text="@string/category_book" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp">
+
+            <!-- Book Name field -->
+            <TextView
+                android:id="@+id/detailed_view_book_name"
+                style="@style/EditorFieldStyle"
+                tools:text="@string/hint_book_name" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Book price category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CatalogStyle"
+            android:text="@string/category_price" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="@dimen/width_editor_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp">
+
+            <!-- Price field -->
+            <TextView
+                android:id="@+id/detailed_view_book_price"
+                style="@style/EditorFieldStyle"
+                tools:text="£5.99" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Book quantity category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CatalogStyle"
+            android:text="@string/category_quantity" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_editor_5dp">
+
+            <!-- Quantity field -->
+            <TextView
+                android:id="@+id/detailed_view_book_quantity"
+                style="@style/CatalogStyle"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/padding_17dp"
+                android:paddingRight="@dimen/padding_17dp"
+                tools:text="0" />
+
+            <ImageButton
+                android:id="@+id/detailed_view_increase_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/plus"   />
+
+            <ImageButton
+                android:id="@+id/detailed_view_decrease_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="42dp"
+                android:maxHeight="42dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/minus"
+                android:layout_marginStart="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Supplier category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <LinearLayout
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/CatalogStyle"
+                android:layout_height="wrap_content"
+                android:text="@string/category_supplier" />
+
+            <TextView
+                style="@style/CatalogStyle"
+                android:text="@string/category_supplier_phone" />
+        </LinearLayout>
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp">
+
+            <!-- Supplier Name field -->
+            <TextView
+                android:id="@+id/detailed_view_supplier_name"
+                style="@style/EditorFieldStyle"
+                tools:text="@string/hint_book_name" />
+
+            <TextView
+                android:id="@+id/detailed_view_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:autoLink="phone"
+                tools:text="0800800800" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of books -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_17dp">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@id/quantity_layout"
+        android:layout_marginLeft="@dimen/padding_17dp"
+        android:layout_marginStart="@dimen/padding_17dp"
+        android:textColor="@color/colorPrimary"
+        tools:text="@string/hint_book_name" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/sale_button"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="@dimen/padding_17dp"
+        android:layout_marginStart="@dimen/padding_17dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        tools:text="$49.99" />
+
+    <LinearLayout
+        android:id="@+id/quantity_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/quantity_in_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="11" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="@dimen/padding_17dp"
+            android:text="@string/in_stock" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sale_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/quantity_layout"
+        android:focusable="false"
+        android:layout_marginRight="16dp"
+        android:text="@string/sale_button" />
+</RelativeLayout>
