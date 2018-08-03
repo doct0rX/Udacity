@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/padding_17dp"
-    tools:context=".DetailedViewActivity">
+    tools:context=".DetailsActivity">
 
 
     <!-- Book name category -->
@@ -29,7 +29,7 @@
 
             <!-- Book Name field -->
             <TextView
-                android:id="@+id/detailed_view_book_name"
+                android:id="@+id/detailed_view_product_name"
                 style="@style/EditorFieldStyle"
                 tools:text="@string/hint_book_name" />
         </LinearLayout>
@@ -56,7 +56,7 @@
 
             <!-- Price field -->
             <TextView
-                android:id="@+id/detailed_view_book_price"
+                android:id="@+id/detailed_view_product_price"
                 style="@style/EditorFieldStyle"
                 tools:text="£5.99" />
         </LinearLayout>
@@ -83,7 +83,7 @@
 
             <!-- Quantity field -->
             <TextView
-                android:id="@+id/detailed_view_book_quantity"
+                android:id="@+id/detailed_view_product_quantity"
                 style="@style/CatalogStyle"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"

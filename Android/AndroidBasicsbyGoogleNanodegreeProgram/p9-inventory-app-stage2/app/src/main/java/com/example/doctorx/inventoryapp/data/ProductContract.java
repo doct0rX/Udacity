@@ -42,7 +42,7 @@ public class ProductContract {
         public static final String COLUMN_PRODUCT_NAME = "name";
         public static final String COLUMN_PRODUCT_PRICE = "price";
         public static final String COLUMN_PRODUCT_QUANTITY = "quantity";
-        public static final String COLUMN_PRODUCT_SUPPLIER = "supplier";
-        public static final String COLUMN_PRODUCT_PHONE = "phone";
+        public static final String COLUMN_PRODUCT_SUPPLIER_NAME = "supplier";
+        public static final String COLUMN_PRODUCT_SUPPLIER_PHONE = "phone";
     }
 }
