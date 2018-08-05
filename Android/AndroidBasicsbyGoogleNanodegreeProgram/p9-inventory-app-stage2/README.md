@@ -6,11 +6,11 @@
 - Populating that table with new entries
 - Modifying the entries
 - Displaying the contents of the table to users.
-- Add Inventory
-- See Product Details
-- Edit Product Details
-- See a list of all inventory from a Main Activity
 
 ### Screenshots
 
-<img src="./screens/Screenshot_1533163917.png" width="340" height="564">
+![screen](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p8-inventory-app-stage1/screens/Screenshot_1532168328.png)
+
+![screen](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p8-inventory-app-stage1/screens/Screenshot_1532168332.png)
+
+![screen](https://github.com/doct0rX/Udacity/blob/master/Android/AndroidBasicsbyGoogleNanodegreeProgram/p8-inventory-app-stage1/screens/Screenshot_1532168336.png)
