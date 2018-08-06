@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_17dp"
+    tools:context=".DetailsActivity">
+
+
+    <!-- Book name category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:text="@string/category_book" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp"
+            android:paddingStart="@dimen/padding_editor_5dp"
+            tools:ignore="RtlSymmetry">
+
+            <!-- Book Name field -->
+            <TextView
+                android:id="@+id/detailed_view_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                tools:text="@string/hint_book_name" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Book price category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:text="@string/category_price" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp"
+            android:paddingStart="@dimen/padding_editor_5dp"
+            tools:ignore="RtlSymmetry">
+
+            <!-- Price field -->
+            <TextView
+                android:id="@+id/detailed_view_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                tools:text="$120.99" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Book quantity category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:text="@string/category_quantity" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_editor_5dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+            <!-- Quantity field -->
+            <TextView
+                android:id="@+id/detailed_view_product_quantity"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/padding_17dp"
+                android:paddingRight="@dimen/padding_17dp"
+                tools:text="0" />
+
+            <ImageButton
+                android:id="@+id/detailed_view_increase_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plus" />
+
+            <ImageButton
+                android:id="@+id/detailed_view_decrease_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="42dp"
+                android:maxWidth="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/minus" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Supplier category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <!-- Label -->
+        <LinearLayout
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_book_supplier_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                android:text="@string/category_supplier_phone" />
+        </LinearLayout>
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_editor_5dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+            <!-- Supplier Name field -->
+            <TextView
+                android:id="@+id/detailed_view_supplier_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                tools:text="@string/hint_book_name" />
+
+            <TextView
+                android:id="@+id/detailed_view_supplier_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                android:autoLink="phone"
+                tools:text="0800800800" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

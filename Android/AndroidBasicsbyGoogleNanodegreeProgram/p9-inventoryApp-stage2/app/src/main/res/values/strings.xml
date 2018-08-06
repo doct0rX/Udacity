@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake Product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Title text for the empty view, which describes the empty view image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Get started by adding a Product</string>
+
+    <!-- Title for the activity to add a new Product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit a book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for editor menu option to save book and leaves the editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for detailed view overflow menu option that opens the editor [CHAR LIMIT=20] -->
+    <string name="action_edit">Edit</string>
+
+    <!-- Label for book name category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book">Product</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier Information</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier_name">Supplier Name</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier_phone">Phone Number</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating book</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting book</string>
+
+    <!-- Toast message in provider when current book requires a name [CHAR LIMIT=NONE] -->
+    <string name="provider_requires_name">Product requires a name</string>
+
+    <!-- Toast message in provider when current book requires a valid price [CHAR LIMIT=NONE] -->
+    <string name="provider_requires_price">Product requires a valid price</string>
+
+    <!-- Toast message in provider when current book requires a valid quantity [CHAR LIMIT=NONE] -->
+    <string name="provider_requires_quantity">Product requires a valid quantity</string>
+
+    <!-- Toast message in provider when current book requires a supplier name [CHAR LIMIT=NONE] -->
+    <string name="provider_requires_supplier_name">Product requires a supplier name</string>
+
+    <!-- Toast message in provider when current book requires a supplier phone number [CHAR LIMIT=NONE] -->
+    <string name="provider_requires_supplier_phone">Product requires a supplier phone number</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Text for the quantity in stock [CHAR LIMIT=20] -->
+    <string name="in_stock">In Stock</string>
+
+    <!-- Text for the sale button [CHAR LIMIT=20] -->
+    <string name="sale_button">Sale</string>
+
+    <!-- Text for the Toast Message no stock left [CHAR LIMIT=30] -->
+    <string name="no_stock">No Stock Left - Contact Supplier </string>
+
+    <string name="hint_product_quantity">Quantity</string>
+    <string name="hint_product_supplier">Supplier Name</string>
+    <string name="hint_product_phone">Phone</string>
+    <string name="hint_product_name">Name</string>
+    <string name="hint_product_price">Price</string>
+    <string name="category_phone">Supplier Phone Number</string>
+    <string name="category_name">Product Name</string>
+    <string name="category_supplier_phone">Supplier Phone</string>
+
+</resources>
