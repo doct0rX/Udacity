@@ -1,4 +1,4 @@
-# Project 9: Inventory App, Stage 1
+# Project 9: Inventory App, Stage 2
 
 ## in this project
 

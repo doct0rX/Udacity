@@ -20,7 +20,7 @@ projects
 
 8) [Inventory App, Stage 1](./p8-inventory-app-stage1)
 
-9) [Inventory App, Stage 2](./p9-inventory-app-stage2)
+9) [Inventory App, Stage 2](./p9-inventoryApp-stage2)
 
 -----------
 
